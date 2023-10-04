@@ -14,13 +14,17 @@ const Hero = () => {
   return (
     <Container component={'section'} className={styles.hero}>
       <div className={styles.hero__intro}>
-        <span>Hi! My name is</span>
-        <h1 className={isActive ? `${styles.active}` : ''}>Kateryna Lanina</h1>
+        <div>
+          <h1 className={isActive ? `${styles.active}` : ''}>
+            Hi! I'm <span>Kateryna</span>
+          </h1>
+        </div>
         <p className={isActive ? `${styles.active}` : ''}>
-          I'm a web developer from Ukraine. My passion is creating websites, 3D visuals and web applications.
+          I'm a Front-End Developer from Ukraine. My passion is creating websites, 3D
+          visuals and web applications.
         </p>
       </div>
-      <Cube/>
+      <Cube />
     </Container>
   )
 }

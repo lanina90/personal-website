@@ -13,11 +13,12 @@
   flex-direction: column;
   justify-content: space-around;
   gap: 20px;
+  margin-top: 30px;
 }
 
 .hero__intro h1 {
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 22px;
+  font-weight: 600;
   text-transform: uppercase;
   transform: translateX(-100%);
   transition: transform 2s ease-out;
@@ -28,10 +29,8 @@
 }
 
 .hero__intro span {
-  font-size: 18px;
-  font-weight: 500;
-  color: rgba(179, 103, 229, .7);
-
+  font-weight: 600;
+  color: rgba(187,132,232,1);
 }
 
 .hero__intro p {
@@ -49,6 +48,8 @@
   .hero__intro {
     width: 75%;
     padding-left: 10px;
+    gap: 5px;
+    margin-top: 0px;
   }
 
   .hero__intro h1 {
