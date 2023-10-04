@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-  background-image: url('/public/img/herobg.webp');
+  /*background-image: url('/img/herobg.webp');*/
   background-position: center;
   background-size: cover;
   height: 100vh;
