@@ -1,26 +1,25 @@
-import React, { useEffect, useState } from 'react'
+import React, {useEffect, useState} from 'react'
 import Cube from '../Cube/Cube'
 import styles from './Hero.module.css'
 import Container from '../Container/Container'
 
 const Hero = () => {
-  const [isHeadingActive, setIsHeadingActive] = useState(false)
-  const [isDescActive, setIsDescActive] = useState(false)
+
+  const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    setIsHeadingActive(true)
-    setIsDescActive(true)
-  }, [])
+    setIsActive(true);
+  }, []);
 
   return (
     <Container component={'section'} className={styles.hero}>
       <div className={styles.hero__intro}>
         <div>
-          <h1 className={isHeadingActive ? `${styles.active}` : ''}>
+          <h1 className={isActive ? `${styles.active}` : ''}>
             Hi! I'm <span>Kateryna</span>
           </h1>
         </div>
-        <p className={isHeadingActive ? `${styles.active}` : ''}>
+        <p className={isActive ? `${styles.active}` : ''}>
           I'm a web developer from Ukraine. My passion is creating websites, 3D
           visuals and web applications.
         </p>
