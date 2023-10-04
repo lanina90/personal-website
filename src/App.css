@@ -1,40 +1,33 @@
-
 body {
   background: rgb(5, 8, 22);
   color: white;
 }
 
-.container{
+.container {
   padding: 0 15px;
 }
 
-
-.wrapper{
-  background-image: url("/public/img/herobg.webp");
+.wrapper {
+  background-image: url('/public/img/herobg.webp');
   background-position: center;
   background-size: cover;
   height: 100vh;
 }
 
-
-@media screen and (min-width: 768px){
-  .container{
+@media screen and (min-width: 768px) {
+  .container {
     padding: 0 15px;
   }
 }
 
-@media screen and (min-width: 1024px){
-  .container{
+@media screen and (min-width: 1024px) {
+  .container {
     padding: 0 15px;
   }
 }
 
-@media screen and (min-width: 1440px){
-  .container{
+@media screen and (min-width: 1440px) {
+  .container {
     padding: 0 15px;
   }
 }
-
-
-
-

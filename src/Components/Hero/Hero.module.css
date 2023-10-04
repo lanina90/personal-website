@@ -3,10 +3,9 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-
 }
 
-.hero__intro{
+.hero__intro {
   width: 100%;
   padding: 10px 10px;
   height: 100%;
@@ -16,38 +15,36 @@
   gap: 20px;
 }
 
-.hero__intro h1{
+.hero__intro h1 {
   font-size: 28px;
   text-transform: uppercase;
   font-family: 'Dancing Script', cursive;
-
 }
 
-
-@media screen and (min-width: 768px){
-  .hero__intro{
+@media screen and (min-width: 768px) {
+  .hero__intro {
     width: 75%;
-    padding-left: 10px ;
+    padding-left: 10px;
   }
 
-  .hero__intro h1{
+  .hero__intro h1 {
     font-size: 48px;
   }
 }
-@media screen and (min-width: 1024px){
-  .hero__intro{
+@media screen and (min-width: 1024px) {
+  .hero__intro {
     width: 60%;
-    padding-left: 10px ;
+    padding-left: 10px;
   }
 }
-@media screen and (min-width: 1440px){
-  .hero{
+@media screen and (min-width: 1440px) {
+  .hero {
     justify-content: space-evenly;
     gap: 120px;
   }
 
-  .hero__intro{
+  .hero__intro {
     width: 40%;
-    padding-left: 0 ;
+    padding-left: 0;
   }
 }
