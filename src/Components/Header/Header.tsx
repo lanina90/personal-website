@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 import styles from './Header.module.css'
-import Container from "../Container/Container";
+import Container from '../Container/Container'
+import Logo from '../../assets/img/logo.svg'
 
 const Header = () => {
   return (
     <Container component="header" className={styles.logo}>
-      <img src='/img/logo.svg' width={'44px'} alt=""/>
-      <p className={styles.logo__name}>Kateryna Lanina</p>
+      <img src={Logo} width={'44px'} alt="Logo" />
     </Container>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

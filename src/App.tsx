@@ -1,18 +1,17 @@
-import React, {FC} from 'react';
-import './App.css';
-import Header from "./Components/Header/Header";
-import Hero from "./Components/Hero/Hero";
+import React, { FC } from 'react'
+import './App.css'
+import Header from './Components/Header/Header'
+import Hero from './Components/Hero/Hero'
 
-
-const App: FC =() => {
+const App: FC = () => {
   return (
-    <div className="App">
-     <div className='wrapper'>
-       <Header/>
-       <Hero/>
-     </div>
+    <div>
+      <div className="wrapper">
+        <Header />
+        <Hero />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
