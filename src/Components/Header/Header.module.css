@@ -1,0 +1,30 @@
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 15px;
+}
+
+.logo__name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 26px;
+}
+
+@media screen and (min-width: 768px){
+  .logo__name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .logo__name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .logo__name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+  }
+}

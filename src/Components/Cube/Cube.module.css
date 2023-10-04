@@ -1,0 +1,152 @@
+.cube-container {
+  perspective: 1500px;
+  width: 250px;
+  height: 250px;
+  margin-right: 100px;
+  margin-top: 100px;
+  display: none;
+}
+
+.cube {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotateCube 10s infinite linear;
+}
+
+.face {
+  position: absolute;
+  background: rgba(106, 4, 170, .9);
+  border: 1px solid rgba(106, 4, 170, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@keyframes rotateCube {
+  from {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
+
+@media screen and (min-width: 768px){
+  .cube-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .cube {
+    width: 130px;
+    height: 130px;
+  }
+  .face {
+    width: 130px;
+    height: 130px;
+  }
+
+  .react {
+    transform: rotateY(0deg) translateZ(80px);
+    box-shadow: 0 0 26px rgba(106, 4, 170, 0.8);
+  }
+
+  .typescript {
+    transform: rotateY(180deg) translateZ(80px);
+    box-shadow: 0 0 26px rgba(106, 4, 170, 0.8);
+  }
+
+  .js {
+    transform: rotateY(-90deg) translateZ(80px);
+    box-shadow: 0 0 26px rgba(106, 4, 170, 0.8);
+  }
+
+  .css {
+    transform: rotateY(90deg) translateZ(80px);
+    box-shadow: 0 0 26px rgba(106, 4, 170, 0.8);
+  }
+
+  .jest {
+    transform: rotateX(90deg) translateZ(80px);
+    box-shadow: 0 0 26px rgba(106, 4, 170, 0.8);
+  }
+
+  .git {
+    transform: rotateX(-90deg) translateZ(80px);
+    box-shadow: 0 0 26px rgba(106, 4, 170, 0.8);
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .cube {
+    width: 170px;
+    height: 170px;
+  }
+  .face {
+    width: 170px;
+    height: 170px;
+  }
+
+  .react {
+    transform: rotateY(0deg) translateZ(100px);
+  }
+
+  .typescript {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+
+  .js {
+    transform: rotateY(-90deg) translateZ(100px);
+  }
+
+  .css {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+
+  .jest {
+    transform: rotateX(90deg) translateZ(100px);
+  }
+
+  .git {
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .cube {
+    width: 230px;
+    height: 230px;
+  }
+
+  .face {
+    width: 230px;
+    height: 230px;
+  }
+
+  .react {
+    transform: rotateY(0deg) translateZ(130px);
+  }
+
+  .typescript {
+    transform: rotateY(180deg) translateZ(130px);
+  }
+
+  .js {
+    transform: rotateY(-90deg) translateZ(130px);
+  }
+
+  .css {
+    transform: rotateY(90deg) translateZ(130px);
+  }
+
+  .jest {
+    transform: rotateX(90deg) translateZ(130px);
+  }
+
+  .git {
+    transform: rotateX(-90deg) translateZ(130px);
+  }
+}
+
