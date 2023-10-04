@@ -9,6 +9,14 @@ body {
 }
 
 
+.wrapper{
+  background-image: url("/public/img/herobg.webp");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
 @media screen and (min-width: 768px){
   .container{
     padding: 0 15px;

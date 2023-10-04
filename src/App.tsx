@@ -7,8 +7,10 @@ import Hero from "./Components/Hero/Hero";
 const App: FC =() => {
   return (
     <div className="App">
-      <Header/>
-      <Hero/>
+     <div className='wrapper'>
+       <Header/>
+       <Hero/>
+     </div>
     </div>
   );
 }
