@@ -5,20 +5,18 @@ import Container from '../Container/Container'
 
 const Hero = () => {
 
-  const [isHeadingActive, setIsHeadingActive] = useState(false);
-  const [isDescActive, setIsDescActive] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
-    setIsHeadingActive(true);
-    setIsDescActive(true)
+    setIsActive(true);
   }, []);
 
   return (
     <Container component={'section'} className={styles.hero}>
       <div className={styles.hero__intro}>
         <span>Hi! My name is</span>
-        <h1 className={isHeadingActive ? `${styles.active}` : ''}>Kateryna Lanina</h1>
-        <p className={isHeadingActive ? `${styles.active}` : ''}>
+        <h1 className={isActive ? `${styles.active}` : ''}>Kateryna Lanina</h1>
+        <p className={isActive ? `${styles.active}` : ''}>
           I'm a web developer from Ukraine. My passion is creating websites, 3D visuals and web applications.
         </p>
       </div>
