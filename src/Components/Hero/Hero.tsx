@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
         </div>
         <p className={isActive ? `${styles.active}` : ''}>
-          I'm a web developer from Ukraine. My passion is creating websites, 3D
+          I'm a Front-End Developer from Ukraine. My passion is creating websites, 3D
           visuals and web applications.
         </p>
       </div>
