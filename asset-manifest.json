@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.21a65f10.css",
-    "main.js": "/personal-website/static/js/main.951b2b28.js",
+    "main.css": "/personal-website/static/css/main.6b4174c4.css",
+    "main.js": "/personal-website/static/js/main.544d5658.js",
     "static/js/787.28cb0dcd.chunk.js": "/personal-website/static/js/787.28cb0dcd.chunk.js",
     "static/media/herobg.webp": "/personal-website/static/media/herobg.2e5c1c669b928cefa377.webp",
+    "static/media/me.jpg": "/personal-website/static/media/me.9727c6ceca7014f92f3f.jpg",
     "static/media/logo.svg": "/personal-website/static/media/logo.42919f7f32cf91bb95457282b82ad64e.svg",
+    "static/media/github.svg": "/personal-website/static/media/github.d2acbb7063a05dd3b22a8216a95e47bd.svg",
+    "static/media/telegram.svg": "/personal-website/static/media/telegram.5622626acde745f71d658947653f3fd1.svg",
     "index.html": "/personal-website/index.html",
-    "main.21a65f10.css.map": "/personal-website/static/css/main.21a65f10.css.map",
-    "main.951b2b28.js.map": "/personal-website/static/js/main.951b2b28.js.map",
+    "static/media/email.svg": "/personal-website/static/media/email.0f153e292d6cd50e2d4041461b703c1b.svg",
+    "static/media/linkedin.svg": "/personal-website/static/media/linkedin.dc48a8359998871991cb159a819e1954.svg",
+    "main.6b4174c4.css.map": "/personal-website/static/css/main.6b4174c4.css.map",
+    "main.544d5658.js.map": "/personal-website/static/js/main.544d5658.js.map",
     "787.28cb0dcd.chunk.js.map": "/personal-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a65f10.css",
-    "static/js/main.951b2b28.js"
+    "static/css/main.6b4174c4.css",
+    "static/js/main.544d5658.js"
   ]
 }
