@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.header img{
+  width: 44px;
+}
+
 .checkbox {
   display: none;
 }
@@ -143,13 +147,33 @@
   .menu {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    width: 300px;
+    gap: 30px;
   }
+
+  .menu > li a{
+    transition: transform 0.5s ease-in-out;
+  }
+  .menu > li a:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+  }
+
+
 }
 
 @media screen and (min-width: 1024px) {
+  .menu > li a{
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (min-width: 1440px) {
+  .menu > li a{
+    font-size: 22px;
+  }
+
+  .header img{
+    width: 48px;
+  }
 }
