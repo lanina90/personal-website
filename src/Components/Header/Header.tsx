@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <Container component="header" className={styles.header}>
-      <img src={Logo} width={'44px'} alt="Logo" />
+      <img src={Logo} alt="Logo" />
       {isMobile ? (
         <>
           <input type="checkbox" id="nav" className={styles.checkbox} />
