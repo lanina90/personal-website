@@ -1,0 +1,87 @@
+.technologies {
+  position: relative;
+  width: 720px;
+  height: 300px;
+}
+
+.row {
+  width: 92vw;
+  height: 125px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -35px;
+  margin-left: -33px;
+}
+
+.row.moved {
+  margin-left: 19px;
+}
+
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 57.74px;
+  background-color: rgba(91, 29, 122, 0.98);
+  margin: 32.87px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .2s linear;
+
+}
+
+.hexagon::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid rgba(91, 29, 122, 0.98);
+  transition: all .2s linear;
+
+}
+
+.hexagon::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  bottom: 100%;
+  border-bottom: 28.87px solid rgba(91, 29, 122, 0.98);
+  transition: all .2s linear;
+
+}
+
+.cursor {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: 2px -3px 41px -1px rgba(241, 196, 15, 0.64);
+  z-index: 0;
+  opacity: 0;
+  background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, #ad27ad, #bd2681, #6512b9, #ff3300de, #5aabde);
+  background-size: 400%;
+  animation: glower 20s linear infinite;
+  filter: blur(40px);
+}
+
+
+@keyframes glower {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}

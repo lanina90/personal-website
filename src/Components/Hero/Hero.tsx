@@ -4,12 +4,12 @@ import styles from './Hero.module.css'
 import Container from '../Container/Container'
 
 const Hero = () => {
-
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
     setIsActive(true);
   }, []);
+
 
   return (
     <Container component={'section'} className={styles.hero}>

@@ -10,9 +10,10 @@ const Container: FC<ContainerProps> = ({
   component,
   children,
   className = '',
+  ...props
 }) => {
   const Component = component
-  return <Component className={`container ${className}`}>{children}</Component>
+  return <Component className={`container ${className}`} {...props}>{children}</Component>
 }
 
 export default Container
