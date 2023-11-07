@@ -20,7 +20,9 @@ const Header = () => {
      <Container component="header" className={ styles.header}>
        <img src={Logo} alt="Logo"/>
        {isMobile
-         ? isOpen ? <Close onClick={onClickMenu}/> : <Menu onClick={onClickMenu}/>
+         ? isOpen
+           ? <Close onClick={onClickMenu} style={{cursor: 'pointer'}}/>
+           : <Menu onClick={onClickMenu} style={{cursor: 'pointer'}}/>
          : <DesktopMenu/>
        }
      </Container>
