@@ -1,8 +1,127 @@
+
+
 :root {
   --header-height: 80px;
   --text-color: white;
-  --violet: rgba(187,132,232,1);
-  --dark-violet: rgba(109, 16, 154, 0.98)
+  --violet: #BB84E8;
+  --dark-violet: rgba(109, 16, 154, 0.98);
+  --white: #FDFDFD;
+  --blue: #292040;
+  --grey: #DEE1E6;
+  --dark-blue: #050716;
+  --black: #121212;
+  --light-blue: #141625;
+  --dark-grey: #7E8492;
+
+  --h1-desc-ff: Lexend;
+  --h1-desc-lg-fs: 200px;
+  --h1-desc-md-fs: 100px;
+  --h1-desc-fw: 700;
+
+  --h2-desc-ff: Lexend;
+  --h2-desc-fs: 170px;
+  --h2-desc-fw: 700;
+
+  --h1-mob-ff: Lexend;
+  --h1-mob-fs: 59px;
+  --h1-mob-fw: 700;
+
+  --h2-mob-ff: Lexend;
+  --h2-mob-fs: 59px;
+  --h2-mob-fw: 700;
+
+  --h3-desc-ff: Manrope;
+  --h3-desc-fs: 56px;
+  --h3-desc-fw: 400;
+  --h3-desc-lh: 100%;
+  --h3-desc-ls: 0.84;
+  --h3-desc-md-fs: 48px;
+  --h3-desc-md-ls: 0.72;
+
+  --number-desc-ff: Manrope;
+  --number-desc-fs: 56px;
+  --number-desc-fw: 700;
+  --number-desc-lh: 100%;
+
+  --h3-mob-ff: Manrope;
+  --h3-mob-fs: 28px;
+  --h3-mob-fw: 400;
+  --h3-mob-lh: 100%;
+  --h3-mob-ls: 0.42;
+
+  --h4-mob-ff: Manrope;
+  --h4-mob-fs: 28px;
+  --h4-mob-fw: 400;
+  --h4-mob-lh: 100%;
+  --h4-mob-ls: 0.42;
+
+  --number-mob-ff: Manrope;
+  --number-mob-fs: 28px;
+  --number-mob-fw: 700;
+  --number-mob-lh: 100%;
+
+  --h5-desc-ff: Manrope;
+  --h5-desc-fs: 22px;
+  --h5-desc-fw: 600;
+  --h5-desc-lh: 136%;
+
+  --h5-mob-ff: Manrope;
+  --h5-mob-fs: 18px;
+  --h5-mob-fw: 600;
+  --h5-mob-lh: 156%;
+
+  --body-text-desc-ff: Manrope;
+  --body-text-desc-fs: 22px;
+  --body-text-desc-fw: 400;
+  --body-text-desc-lh: 136%;
+
+  --body-text-mob-ff: Manrope;
+  --body-text-mob-fs: 18px;
+  --body-text-mob-fw: 400;
+  --body-text-mob-lh: 156%;
+
+  --body-text-small-ff: Manrope;
+  --body-text-small-fs: 16px;
+  --body-text-small-fw: 400;
+  --body-text-small-lh: 150%;
+
+  --menu-item-ff: Manrope;
+  --menu-item-fs: 18px;
+  --menu-item-fw: 400;
+  --menu-item-lh: 155%;
+
+  --btn-text-ff: Manrope ;
+  --btn-text-fs: 16px;
+  --btn-text-fw: 400 ;
+  --btn-text-lh: 163%;
+
+  --h6-ff: Manrope;
+  --h6-fs: 16px;
+  --h6-fw: 600;
+  --h6-lh: 150%;
+
+  --caption-ff: Manrope;
+  --caption-fs: 14px;
+  --caption-fw: 400;
+  --caption-lh: 135%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
