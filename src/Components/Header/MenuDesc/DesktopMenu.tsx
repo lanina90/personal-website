@@ -4,10 +4,23 @@ import styles from '../Header.module.css';
 const DesktopMenu = () => {
   return (
     <nav className={styles.nav}>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#work">Experience</a>
-          <a href="#contacts">Contacts</a>
+      <a href="#about">
+        <span className={styles.anchor}>About</span>
+        <span className={styles.anchorHover}>About</span>
+      </a>
+      <a href="#projects">
+        <span className={styles.anchor}>Projects</span>
+        <span className={styles.anchorHover}>Projects</span>
+        </a>
+      <a href="#work">
+        <span className={styles.anchor}>Experience</span>
+        <span className={styles.anchorHover}>Experience</span>
+        </a>
+      <a href="#contacts">
+        <span className={styles.anchor}>Contacts</span>
+        <span className={styles.anchorHover}>Contacts</span>
+      </a>
+
     </nav>
   );
 };
