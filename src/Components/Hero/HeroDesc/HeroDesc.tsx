@@ -8,20 +8,22 @@ const HeroDesc = () => {
   const cubeRef = useRef(null);
   const callbackFunction = (entries: IntersectionObserverEntry[]) => {
     const [entry] = entries;
+    if (entry.intersectionRatio < 0.8) return;
     setIsIntersecting(entry.isIntersecting);
   };
 
   useEffect(() => {
     const observer = new IntersectionObserver(callbackFunction, {
-      threshold: [1, 0.4]
+      threshold: [0, 0.8]
     });
 
     if(cubeRef.current){
       observer.observe(cubeRef.current);
     }
 
-    return () => observer.disconnect(); // Від'єднуємо обсервер при розмонтованні компоненту
+    return () => observer.disconnect();
   }, []);
+
 
   return (
    <div>
@@ -32,15 +34,15 @@ const HeroDesc = () => {
          </h1>
          <h2 className={`${isIntersecting ? styles.subheadingSmall : styles.subheading}`}>FRONTEND DEVELOPER</h2>
        </div>
-       <div ref={cubeRef}><Cube isIntersecting={isIntersecting}/></div>
+       <div ref={cubeRef} className={styles.cube}><Cube isIntersecting={isIntersecting}/></div>
      </Container>
-     <div className={styles.about}>
+     <Container component={'div'} className={styles.about}>
        <p className={styles.hi}>Hi,</p>
        <p className={styles.text}>
          "I'm Kateryna Lanina, an experienced frontend developer with a passion for crafting engaging user
          experiences. Welcome to my portfolio!"
        </p>
-     </div>
+     </Container>
    </div>
   );
 };

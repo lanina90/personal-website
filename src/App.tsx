@@ -6,12 +6,12 @@ import Hero from './Components/Hero/Hero'
 
 const App: FC = () => {
   return (
-    <div>
+    <>
       <div className="wrapper">
         <Header />
         <Hero />
       </div>
-    </div>
+    </>
   )
 }
 

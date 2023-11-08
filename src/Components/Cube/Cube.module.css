@@ -2,7 +2,6 @@
  perspective: 1500px;
  width: 250px;
  height: 250px;
- display: none;
  float: left;
 }
 
@@ -33,11 +32,9 @@
 @media screen and (min-width: 768px) {
  .cube-container {
   display: flex;
-  align-items: flex-start;
   justify-content: flex-end;
-  float: right;
+  transition: all 2s ease-in-out;
  }
-
  .cubeIntersect {
   perspective: 1500px;
   width: 250px;
@@ -45,12 +42,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 2s ease;
  }
 
  .cube {
   width: 120px;
   height: 120px;
-
  }
 
  .face {
@@ -118,81 +115,84 @@
  .gitScale {
   transform: rotateX(-90deg) translateZ(80px);
  }
+
 }
 
 @media screen and (min-width: 1024px) {
- .cube {
-  width: 170px;
-  height: 170px;
+
+ .cubeIntersect {
+  width: 350px;
+  height: 350px;
  }
 
- .face {
-  width: 170px;
-  height: 170px;
+ .cube{
+  width: 150px;
+  height: 150px;
  }
 
- .react {
-  transform: rotateY(0deg) translateZ(100px);
+ .faceScale {
+  width: 190px;
+  height: 190px;
  }
 
- .typescript {
-  transform: rotateY(180deg) translateZ(100px);
+ .reactScale {
+  transform: rotateY(0deg) translateZ(110px);
  }
 
- .js {
-  transform: rotateY(-90deg) translateZ(100px);
+ .typescriptScale {
+  transform: rotateY(180deg) translateZ(110px);
  }
 
- .css {
-  transform: rotateY(90deg) translateZ(100px);
+ .jsScale {
+  transform: rotateY(-90deg) translateZ(110px);
  }
 
- .jest {
-  transform: rotateX(90deg) translateZ(100px);
+ .cssScale {
+  transform: rotateY(90deg) translateZ(110px);
  }
 
- .git {
-  transform: rotateX(-90deg) translateZ(100px);
+ .jestScale {
+  transform: rotateX(90deg) translateZ(110px);
+ }
+
+ .gitScale {
+  transform: rotateX(-90deg) translateZ(110px);
  }
 }
 
 @media screen and (min-width: 1440px) {
-
- .cube-container {
-  margin-right: 4vw;
+ .cubeIntersect {
+  width: 350px;
+  height: 350px;
  }
 
- .cube {
-  width: 230px;
-  height: 230px;
+
+ .faceScale {
+  width: 240px;
+  height: 240px;
  }
 
- .face {
-  width: 230px;
-  height: 230px;
+ .reactScale {
+  transform: rotateY(0deg) translateZ(140px);
  }
 
- .react {
-  transform: rotateY(0deg) translateZ(130px);
+ .typescriptScale {
+  transform: rotateY(180deg) translateZ(140px);
  }
 
- .typescript {
-  transform: rotateY(180deg) translateZ(130px);
+ .jsScale {
+  transform: rotateY(-90deg) translateZ(140px);
  }
 
- .js {
-  transform: rotateY(-90deg) translateZ(130px);
+ .cssScale {
+  transform: rotateY(90deg) translateZ(140px);
  }
 
- .css {
-  transform: rotateY(90deg) translateZ(130px);
+ .jestScale {
+  transform: rotateX(90deg) translateZ(140px);
  }
 
- .jest {
-  transform: rotateX(90deg) translateZ(130px);
- }
-
- .git {
-  transform: rotateX(-90deg) translateZ(130px);
+ .gitScale {
+  transform: rotateX(-90deg) translateZ(140px);
  }
 }
