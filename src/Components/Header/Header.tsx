@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Container from '../Container/Container'
-import Logo from '../../assets/img/logo.svg'
+import Logo from '../../assets/img/header/logo.svg'
 import {useMedia} from '../../hooks/useMedia'
 import MobileMenu from './MenuMob/MobileMenu';
 import DesktopMenu from './MenuDesc/DesktopMenu';
