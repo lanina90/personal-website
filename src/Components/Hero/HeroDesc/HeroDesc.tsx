@@ -26,7 +26,7 @@ const HeroDesc = () => {
 
 
   return (
-   <div>
+   <>
      <Container component={'section'} className={`${styles.hero} ${isIntersecting ? styles.heroSmall : ''}`}>
        <div className={styles.heading}>
          <h1 className={`${isIntersecting ? styles.titleSmall : styles.title}`}>
@@ -36,14 +36,14 @@ const HeroDesc = () => {
        </div>
        <div ref={cubeRef} className={styles.cube}><Cube isIntersecting={isIntersecting}/></div>
      </Container>
-     <Container component={'div'} className={styles.about}>
+     <Container component={'div'} className={`${styles.about} ${isIntersecting ? styles.opacity : ''}`}>
        <p className={styles.hi}>Hi,</p>
        <p className={styles.text}>
          "I'm Kateryna Lanina, an experienced frontend developer with a passion for crafting engaging user
          experiences. Welcome to my portfolio!"
        </p>
      </Container>
-   </div>
+   </>
   );
 };
 

@@ -1,0 +1,143 @@
+
+.icon{
+ padding: 40px 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.about{
+ display: flex;
+ flex-direction: column;
+}
+
+.about h2{
+ color: var(--blue, #292040);
+ font-family: var(--h2-mob-ff);
+ font-size: var(--h2-mob-fs);
+ font-weight: var(--h2-mob-fw);
+ text-transform: uppercase;
+ text-align: right;
+}
+
+.info{
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+}
+
+.image{
+ border-radius: 8px;
+ position: relative;
+ width: 100%;
+ height: 332px;
+}
+
+.image img{
+ border-radius: 8px;
+ width: 100%;
+ height: 332px;
+
+}
+
+.image::after{
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: linear-gradient(0deg, #BB84E8 0%, #BB84E8 100%), lightgray 50% / cover no-repeat;
+ width: 100%;
+ height: 332px;
+ opacity: .5;
+ border-radius: 8px;
+}
+
+.text{
+ color: var(--grey, #DEE1E6);
+ font-family: var(--body-text-mob-ff);
+ font-size: var(--body-text-mob-fs);
+ font-style: normal;
+ font-weight: var(--body-text-mob-fw);
+ line-height: var(--body-text-mob-lh);
+}
+
+@media screen and (min-width: 768px)  {
+ .container{
+  padding-top: 10px;
+  padding-bottom: 100px;
+ }
+ .icon{
+  padding: 0;
+  width: 169px;
+  height: 169px;
+ }
+
+ .about{
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .about h2{
+  font-size: 80px;
+ }
+
+ .info{
+  align-items: center;
+  gap: 40px;
+ }
+ .image{
+  width: 412px;
+  height: 419px;
+ }
+
+ .image img{
+  height: 419px;
+ }
+
+ .image::after{
+  height: 419px;
+ }
+
+}
+
+@media screen and (min-width: 1024px)  {
+ .container{
+  padding-top: 20px;
+  padding-bottom: 160px;
+ }
+
+ .about h2{
+  font-family: var(--h2-desc-ff);
+  font-size: var(--h2-desc-fs);
+  font-weight: var(--h2-desc-fw);
+  text-transform: uppercase;
+  text-align: right;
+ }
+ .info{
+  align-items: center;
+  gap: 80px;
+ }
+ .image{
+  width: 512px;
+  height: 519px;
+ }
+
+ .image img{
+  height: 519px;
+ }
+
+ .image::after{
+  height: 519px;
+ }
+
+ .text{
+  font-size: var(--body-text-desc-fs);
+  font-style: normal;
+  font-weight: var(--body-text-desc-fw);
+  line-height: var(--body-text-desc-lh);
+  width: 846px;
+ }
+
+}
+
