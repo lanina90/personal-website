@@ -1,71 +1,18 @@
 body {
-  background: rgb(5, 8, 22);
-  color: white;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-a {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 600;
-  text-transform: uppercase;
-}
-h1 {
-  font-size: 22px;
-}
-
-h2 {
-  font-size: 22px;
-}
-
-p {
-  font-size: 16px;
-  font-weight: 500;
+ background: rgb(5, 8, 22);
+ color: white;
+ overflow-x: hidden;
 }
 
 .container {
-  padding: 0 5vw;
+ padding: 0 5vw;
+ max-width: 1440px;
+ margin: auto;
 }
 
 .wrapper {
-  background-image: url('assets/img/herobg.webp');
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
+ background-image: url('assets/img/herobg.webp');
+ background-size: cover;
+ height: 100vh;
 }
 
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 48px;
-  }
-  h2 {
-    font-size: 46px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-}
-
-@media screen and (min-width: 1440px) {
-
-
-  p {
-    font-size: 24px;
-  }
-
-
-}
