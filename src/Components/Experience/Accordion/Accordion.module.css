@@ -1,10 +1,17 @@
 .accordion {
  display: flex;
+ flex-direction: column;
+ gap: 8px;
+ border-bottom: 1px solid #DEE1E6;
+}
+
+.main {
+ display: flex;
  gap: 8px;
  flex-shrink: 0;
  align-self: stretch;
- border-bottom: 1px solid #DEE1E6;
  padding: 16px 0;
+ position: relative;
 }
 
 .info {
@@ -50,13 +57,31 @@
  line-height: 130%;
 }
 
+.wrapper {
+ display: flex;
+ gap: 24px;
+ padding-bottom: 10px;
+}
+
+.iconList {
+ width: 32px;
+ height: 32px;
+}
+
+.listText {
+ color: var(--grey, #DEE1E6);
+ font-family: var(--body-text-small-ff);
+ font-size: var(--body-text-small-fs);
+ font-weight: var(--body-text-small-fw);
+ line-height: var(--body-text-small-lh);
+}
 
 @media screen and (min-width: 1024px) {
  .accordion {
   padding: 24px 0;
  }
 
- .info{
+ .info {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -93,4 +118,13 @@
   line-height: var(--body-text-desc-lh);
  }
 
+ .listText {
+  color: var(--grey, #DEE1E6);
+  font-family: var(--body-text-desc-ff);
+  font-size: var(--body-text-desc-fs);
+  font-weight: var(--body-text-desc-fw);
+  line-height: var(--body-text-desc-lh);
+ }
+
 }
+
