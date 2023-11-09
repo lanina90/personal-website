@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "title": "Walking School",
+    "desc": "Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat",
+    "stack": [
+      "React", "CSS", "React Query", "REST API", "Jest"
+    ],
+    "website" : "https://www.walking-school.site/",
+    "git": "https://github.com/lanina90/walking-school-baza",
+    "img" : "https://s3-alpha-sig.figma.com/img/2c61/de59/7f52b0f3f098cf9a49ab74f2092c7655?Expires=1700438400&Signature=NmmLywOAovkFfWVNtCtibGGTy7Li~Ay8oueTWuvJPkglZoIIEce80PXz9rquaFX72dcuXArj3zR7H-DZc3fa6L8RKdh~OqkvnBgPCxQX~cxpLHEWe~NfrkDGKS35hyV0oE8lHJU15OJpR4lAQPHd7ikLCLsbWnacxNhXauJMmJb9xxSn9d9X6tSw8R5A9QZgPN8vuw94sZ5oMq-DuJNtxMeGK3Rb6zOlgALne05e77u1GDEJPTmnoJu4aGEa~Fwz9t4FwWBUuWw0cYzgTS4Xj~jbof7Wwpoz8yJ9VXnfxeV1r8iQiWA5ODg8XqDvnvChiRIzZQamw0JbakA60sqV2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+  },
+  {
+    "id": "2",
+    "title": "HYST",
+    "desc": "Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat",
+    "stack": [
+      "React", "TailwindCSS", "TypeScript", "REST API"
+    ],
+    "website" : "https://hyst.site/",
+    "git": "https://github.com/lanina90/veterano-front/tree/main",
+    "img" : "https://s3-alpha-sig.figma.com/img/2c61/de59/7f52b0f3f098cf9a49ab74f2092c7655?Expires=1700438400&Signature=NmmLywOAovkFfWVNtCtibGGTy7Li~Ay8oueTWuvJPkglZoIIEce80PXz9rquaFX72dcuXArj3zR7H-DZc3fa6L8RKdh~OqkvnBgPCxQX~cxpLHEWe~NfrkDGKS35hyV0oE8lHJU15OJpR4lAQPHd7ikLCLsbWnacxNhXauJMmJb9xxSn9d9X6tSw8R5A9QZgPN8vuw94sZ5oMq-DuJNtxMeGK3Rb6zOlgALne05e77u1GDEJPTmnoJu4aGEa~Fwz9t4FwWBUuWw0cYzgTS4Xj~jbof7Wwpoz8yJ9VXnfxeV1r8iQiWA5ODg8XqDvnvChiRIzZQamw0JbakA60sqV2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+  },
+  {
+    "id": "3",
+    "title": "MovieMagic",
+    "desc": "Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat",
+    "stack": [
+      "React", "REST API", "FireBase"
+    ],
+    "website" : "https://magicmovie.fun/",
+    "git": "https://github.com/lanina90/CourseReactProject/tree/main",
+    "img" : "https://s3-alpha-sig.figma.com/img/2c61/de59/7f52b0f3f098cf9a49ab74f2092c7655?Expires=1700438400&Signature=NmmLywOAovkFfWVNtCtibGGTy7Li~Ay8oueTWuvJPkglZoIIEce80PXz9rquaFX72dcuXArj3zR7H-DZc3fa6L8RKdh~OqkvnBgPCxQX~cxpLHEWe~NfrkDGKS35hyV0oE8lHJU15OJpR4lAQPHd7ikLCLsbWnacxNhXauJMmJb9xxSn9d9X6tSw8R5A9QZgPN8vuw94sZ5oMq-DuJNtxMeGK3Rb6zOlgALne05e77u1GDEJPTmnoJu4aGEa~Fwz9t4FwWBUuWw0cYzgTS4Xj~jbof7Wwpoz8yJ9VXnfxeV1r8iQiWA5ODg8XqDvnvChiRIzZQamw0JbakA60sqV2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+  }
+]
