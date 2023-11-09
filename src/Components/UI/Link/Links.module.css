@@ -1,0 +1,34 @@
+.link{
+ border-radius: 4px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 115px;
+ height: 44px;
+ color: var(--violet, #BB84E8);
+ font-family: var(--btn-text-ff);
+ font-size: var(--btn-text-fs);
+ font-weight: var(--btn-text-fw);
+ line-height: var(--btn-text-lh);
+}
+
+.primary{
+ border: 1px solid var(--violet, #BB84E8);
+ transition: all 1s ease-in-out;
+}
+
+.primary:hover{
+ border: 1px solid var(--violet, #BB84E8);
+ background: var(--violet, #BB84E8);
+ color: var(--black, #121212);
+ transition: all 1s ease ;
+}
+
+.secondary{
+ transition: all 1s ease-in-out;
+}
+
+.secondary:hover{
+ color: var(--grey, #DEE1E6);
+ transition: all 1s ease-in-out;
+}

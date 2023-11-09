@@ -1,0 +1,214 @@
+.card {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 32px 10px;
+ gap: 24px;
+ border-radius: 8px;
+ background: var(--light-blue, #141625);
+ max-width: 475px;
+ height: 700px;
+}
+
+.preview {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ width: 327px;
+ height: 251px;
+}
+
+.preview img {
+ width: 100%;
+ height: 100%;
+ flex-shrink: 0;
+ border-radius: 8px;
+
+}
+
+.preview::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-blend-mode: color, normal;
+ background: linear-gradient(0deg, #BB84E8 0%, #BB84E8 100%);
+ width: 100%;
+ height: 100%;
+ border-radius: 8px;
+ opacity: .6;
+
+}
+
+.wrapper{
+ display: flex;
+ flex-direction: column;
+ gap: 32px;
+}
+
+.about {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 16px;
+
+}
+
+.title {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ gap: 20px;
+ width: 100%;
+}
+
+.title span {
+ color: var(--violet);
+ font-family: var(--number-mob-ff);
+ font-size: var(--number-mob-fs);
+ font-weight: var(--number-mob-fw);
+ line-height: var(--number-mob-lh);
+}
+
+.title h3 {
+ color: var(--white, #FDFDFD);
+ font-family: var(--h4-mob-ff);
+ font-size: var(--h4-mob-fs);
+ font-weight: var(--h4-mob-fw);
+ line-height: var(--h4-mob-lh);
+ letter-spacing: var(--h4-mob-ls);
+}
+
+.text {
+ color: var(--grey, #FDFDFD);
+ font-family: var(--body-text-mob-ff);
+ font-size: var(--body-text-mob-fs);
+ font-weight: var(--body-text-mob-fw);
+ line-height: var(--body-text-mob-lh);
+}
+
+.stack {
+ display: flex;
+ width: 100%;
+ gap: 23px;
+ color: var(--grey, #DEE1E6);
+ font-family: var(--body-text-mob-ff);
+ font-size: 16px;
+ font-weight: 600;
+ line-height: 175%;
+}
+
+.stack span {
+ font-weight: 600;
+}
+
+.stackList span {
+ font-weight: 400;
+}
+
+.stackList {
+ display: flex;
+ gap: 16px;
+ flex-wrap: wrap;
+
+}
+
+.links {
+ display: flex;
+ width: 100%;
+ gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+ .card {
+  justify-content: center;
+ }
+
+ .preview {
+  width: 100%;
+  height: 351px;
+ }
+
+ .preview img {
+  width: 100%;
+  height: 100%;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+ .card {
+  flex-direction: row-reverse;
+  max-width: 100%;
+  width: 100%;
+  padding: 36px 20px;
+  justify-content: space-between;
+  height: 430px;
+ }
+
+ .card:nth-child(odd) {
+  flex-direction: row;
+ }
+
+ .preview{
+  width: 50%;
+  height: 100%;
+ }
+
+ .wrapper{
+  gap: 24px;
+  width: 50%;
+ }
+
+ .about{
+  gap: 28px;
+ }
+
+}
+
+@media screen and (min-width: 1280px) {
+ .card {
+  padding: 36px 118px;
+ }
+
+ .preview{
+  width: 45%;
+  height: 100%;
+ }
+
+ .wrapper{
+  width: 55%;
+ }
+
+ .title {
+  gap: 36px;
+ }
+
+ .title span {
+  font-family: var(--number-desc-ff);
+  font-size: var(--number-desc-fs);
+  font-weight: var(--number-desc-fw);
+  line-height: var(--number-desc-lh);
+ }
+
+ .title h3 {
+  font-family: var(--h3-desc-ff);
+  font-size: var(--h3-desc-fs);
+  font-weight: var(--h3-desc-fw);
+  line-height: var(--h3-desc-lh);
+  letter-spacing: var(--h3-desc-ls);
+ }
+
+ .text {
+  font-family: var(--body-text-desc-ff);
+  font-size: var(--body-text-desc-fs);
+  font-weight: var(--body-text-desc-fw);
+  line-height: var(--body-text-desc-lh);
+ }
+
+ .stack {
+  gap: 24px;
+ }
+
+}
