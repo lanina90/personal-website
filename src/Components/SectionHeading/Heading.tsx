@@ -1,8 +1,8 @@
-import React, {FC, ReactComponentElement} from 'react';
+import React, {FC, ReactElement, SVGProps} from 'react';
 import styles from './Heading.module.css';
 
 interface HeadingProps{
-  icon: ReactComponentElement<any>;
+  icon: ReactElement<SVGProps<SVGSVGElement>>;
   title: string;
   text: string
 }
