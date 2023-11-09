@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "position": "junior frontend developer",
+    "company": "BazaTrainee Ukraine",
+    "period": "2023 - now",
+    "duties": [
+      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
+      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
+      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
+    ]
+  },
+  {
+    "id": "2",
+    "position": "Head of SEO",
+    "company": "Devellar",
+    "period": "2020-2022",
+    "duties": [
+      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
+      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
+      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
+    ]
+  },
+  {
+    "id": "3",
+    "position": "SEO Manager",
+    "company": "Devellar",
+    "period": "2019-2020",
+    "duties": [
+      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
+      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
+      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
+    ]
+  },
+  {
+    "id": "4",
+    "position": "Senior SEO",
+    "company": "Devellar",
+    "period": "2017-2018",
+    "duties": [
+      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
+      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
+      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
+    ]
+  }
+]
