@@ -1,0 +1,142 @@
+.skills {
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+ padding-bottom: 80px;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+.info {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+
+.icon {
+ display: flex;
+ padding: 0 10px 40px 10px;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+
+.heading {
+ position: relative;
+ width: 100%;
+}
+
+.title {
+ color: var(--blue, #292040);
+ font-family: var(--h2-mob-ff);
+ font-size: var(--h2-mob-fs);
+ font-weight: var(--h2-mob-fw);
+ text-transform: uppercase;
+}
+
+.text {
+ color: var(--grey, #DEE1E6);
+ font-family: var(--body-text-mob-ff);
+ font-size: var(--body-text-mob-fs);
+ font-weight: var(--body-text-mob-fw);
+ line-height: var(--body-text-mob-lh);
+}
+
+.technologies{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 16px;
+ align-items: center;
+ justify-content: center;
+}
+
+.card{
+ display: flex;
+ width: 156px;
+ height: 128px;
+ padding: 32px 46px;
+ justify-content: center;
+ align-items: center;
+ flex-shrink: 0;
+ border-radius: 8px;
+ border: 1px solid var(--grey, #DEE1E6);
+ transition: background 2s ease;
+ position: relative;
+}
+.card span{
+ color: var(--black, #121212);
+ text-align: center;
+ font-family: var(--body-text-desc-ff);
+ font-size: var(--body-text-desc-fs);
+ font-weight: var(--body-text-desc-fw);
+ line-height: var(--body-text-desc-lh);
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%) scale(0);
+ transition: transform 1s ease, opacity 1s ease;
+ opacity: 0; /* Прозорість */
+}
+
+.card:hover{
+ display: flex;
+ padding: 0 4px;
+ justify-content: center;
+ align-items: center;
+ flex-shrink: 0;
+ border-radius: 8px;
+ border: 1px solid var(--violet, #BB84E8);
+ background: var(--violet, #BB84E8);
+}
+
+.card:hover span {
+ transform: translate(-50%, -50%) scale(1);
+ opacity: 1;
+}
+.card svg {
+ transition: transform 2s ease, opacity 2s ease;
+ transform: scale(1);
+}
+.card:hover svg {
+ transform: scale(0);
+ opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+ .title {
+  font-size: 80px;
+ }
+}
+
+@media screen and (min-width: 1024px) {
+ .info {
+  flex-direction: row-reverse;
+
+ }
+
+ .icon {
+  padding: 0;
+ }
+
+ .title {
+  font-family: var(--h2-desc-ff);
+  font-size: var(--h2-desc-fs);
+  font-weight: var(--h2-desc-fw);
+ }
+
+ .text {
+  font-family: var(--body-text-desc-ff);
+  font-size: var(--body-text-desc-fs);
+  font-weight: var(--body-text-desc-fw);
+  line-height: var(--body-text-desc-lh);
+  width: 351px;
+  position: absolute;
+  bottom: 43px;
+  left: 292px;
+  opacity: .7;
+ }
+
+}
