@@ -6,8 +6,8 @@ import Navigation from './Navigation/Navigation';
 
 const Contacts = () => {
   return (
-    <Container component={'footer'} className={styles.contacts}>
-      <div className={styles.icon}>
+    <Container component={'footer'} className={styles.contacts} id={'contacts'}>
+      <div className={styles.icon} >
         <Contact/>
       </div>
       <div className={styles.info}>

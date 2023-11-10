@@ -10,7 +10,7 @@ import styles from './Experience.module.css'
 const Experience = () => {
   const {isDesktop, isDeskLg} = useMedia()
   return (
-    <Container component={'section'} className={styles.experience}>
+    <Container component={'section'} className={styles.experience} id={'work'}>
       <Heading
         icon={<Work/>}
         title={(isDesktop || isDeskLg) ? 'Experience' : 'Work history'}

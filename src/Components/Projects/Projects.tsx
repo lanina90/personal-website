@@ -9,7 +9,7 @@ import styles from './Projects.module.css'
 const Projects = () => {
 
   return (
-    <Container component={'section'} className={styles.projects}>
+    <Container component={'section'} className={styles.projects} id={'projects'}>
       <div className={styles.heading}>
         <Heading icon={<Project/>} title={'projects'} text={'Featured Work and Project Showcase'}/>
       </div>
