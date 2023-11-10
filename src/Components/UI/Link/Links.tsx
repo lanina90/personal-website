@@ -15,7 +15,7 @@ const Links: FC<LinksProps> = ({link, variant, children}) => {
   }
 
   return (
-    <a href={link} target='_blank' rel={'noreferrer'} className={`${styles.link} ${linkClass[variant]}`}>
+    <a href={link} target='_blank' rel='noreferrer' className={`${styles.link} ${linkClass[variant]}`}>
         {children}
     </a>
   );
