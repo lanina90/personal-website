@@ -3,6 +3,7 @@
  justify-content: space-between;
  color: var(--text-color);
  gap: 5vw;
+ padding-top: 10vh;
 }
 
 .title {

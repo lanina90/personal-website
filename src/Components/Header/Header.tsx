@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-import Container from '../Container/Container'
-import Logo from '../../assets/img/header/logo.svg'
-import {useMedia} from '../../hooks/useMedia'
-import MobileMenu from './MenuMob/MobileMenu';
-import DesktopMenu from './MenuDesc/DesktopMenu';
-import {ReactComponent as Menu} from '../../assets/img/header/menu.svg';
 import {ReactComponent as Close} from '../../assets/img/header/close.svg';
+import Logo from '../../assets/img/header/logo.svg'
+import {ReactComponent as Menu} from '../../assets/img/header/menu.svg';
+import {useMedia} from '../../hooks/useMedia'
+import Container from '../Container/Container'
 import styles from './Header.module.css'
+import DesktopMenu from './MenuDesc/DesktopMenu';
+import MobileMenu from './MenuMob/MobileMenu';
 
 const Header = () => {
   const {isMobile} = useMedia()
@@ -15,10 +15,10 @@ const Header = () => {
    setIsOpen(!isOpen)
  }
   return (
-   <>
+   <header className={styles.wrapper}>
      {isOpen && <div className={styles.background}/> }
-     <Container component="header" className={ styles.header}>
-       <img src={Logo} alt="Logo"/>
+     <Container component="div" className={styles.header}>
+       <a href="/personal-website"><img src={Logo} alt="Logo"/></a>
        {isMobile
          ? isOpen
            ? <Close onClick={onClickMenu} style={{cursor: 'pointer'}}/>
@@ -27,7 +27,7 @@ const Header = () => {
        }
      </Container>
      {isOpen && <MobileMenu/>}
-   </>
+   </header>
   )
 }
 
