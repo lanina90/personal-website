@@ -1,13 +1,13 @@
 import React from 'react';
-import Container from '../Container/Container';
 import {ReactComponent as Info} from '../../assets/img/about/info.svg';
 import Photo from '../../assets/img/about/me.jpg';
+import Container from '../Container/Container';
 import styles from './About.module.css'
 
 const About = () => {
   return (
-    <Container component={'section'} className={styles.container}>
-      <div className={styles.about}>
+    <Container component={'section'} className={styles.container} id={'about'}>
+      <div className={styles.about} >
         <div className={styles.icon}>
           <Info width={'200px'}/>
         </div>

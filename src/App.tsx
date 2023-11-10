@@ -1,4 +1,4 @@
-import React, {FC} from 'react'
+import React, {FC, Fragment} from 'react'
 import './App.css'
 import About from './Components/About/About';
 import Contacts from './Components/Contacts/Contacts';

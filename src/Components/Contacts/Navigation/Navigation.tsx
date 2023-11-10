@@ -14,7 +14,7 @@ const Navigation = () => {
     {icon: <PiTelegramLogoLight fill={'#DEE1E6'} size={36}/>, url: 'https://t.me/KaterynaLanina'},
   ]
 
-  const [isActive, setIsActive] = useState(true)
+  const [isActive, setIsActive] = useState(false)
 
   return (
     <>

@@ -1,3 +1,14 @@
+.wrapper{
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ border-radius: 4px;
+ background: var(--dark-blue, #050716);
+ z-index: 1000;
+}
+
+
 .header {
  display: flex;
  align-items: center;
@@ -7,6 +18,7 @@
  height: var(--header-height);
  position: relative;
  z-index: 10;
+
 }
 
 .header img {
