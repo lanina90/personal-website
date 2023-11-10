@@ -1,0 +1,92 @@
+.menu {
+ position: relative;
+ width: 222px;
+ height: 222px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.menu::after {
+ content: '';
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ z-index: 0;
+ top: 0;
+ left: 0;
+ border-radius: 50%;
+ border: 0 solid var(--violet);
+ transform: scale(0);
+ transition: transform 1s ease-in-out, border-width 1s ease-in-out, border-color 1s ease-in-out;
+}
+
+
+.menu.active::after {
+ border: 1px solid var(--violet);
+ transform: scale(1);
+}
+
+.item svg {
+ transform: rotate(calc(-186deg / 4 * var(--i)));
+}
+
+.item a {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 55px;
+ height: 55px;
+ font-size: 1.75em;
+ color: #262433;
+ transform: rotate(calc(360deg / -8 * var(--i)));
+ border-radius: 50%;
+}
+
+
+.item {
+ position: absolute;
+ left: -28px;
+ list-style: none;
+ transform: rotate(calc(360deg / 4 * var(--i))) translateX(35px);
+ transform-origin: 140px;
+ visibility: hidden;
+ opacity: 0;
+ transition: opacity 2s ease-in-out, visibility 2s ease-in-out;
+ z-index: 1000;
+}
+
+.menu.active .item {
+ visibility: visible;
+ opacity: 1;
+}
+
+
+.toggle {
+ position: relative;
+ width: 78px;
+ height: 78px;
+ background: var(--blue, #292040);
+ color: var(--grey);
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 3em;
+ cursor: pointer;
+ transition: 0.5s;
+ transform: rotate(315deg);
+ z-index: 3;
+}
+
+.toggle.active {
+ transform: rotate(0);
+ background: var(--blue);
+}
+
+.menu.active .item.active {
+ transform: rotate(calc(360deg / 4 * var(--i))) translateX(12px);
+}
+
+
+

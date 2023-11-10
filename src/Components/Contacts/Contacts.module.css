@@ -1,0 +1,67 @@
+.contacts{
+ padding-top: 80px;
+ display: flex;
+ flex-direction: column;
+ padding-bottom: 40px;
+}
+
+.icon{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 40px 10px;
+}
+
+.title{
+ color: var(--violet, #BB84E8);
+ font-family: var(--h2-mob-ff);
+ font-size: var(--h2-mob-fs);
+ font-weight: var(--h2-mob-fw);
+ text-transform: uppercase;
+}
+
+.info{
+ display: flex;
+ flex-direction: column;
+ gap: 40px;
+
+}
+.rights{
+ color: var(--dark-grey, #7E8492);
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-family: var(--caption-ff);
+ font-size: var(--caption-fs);
+ font-style: normal;
+ font-weight: var(--caption-fw);
+ line-height: var(--caption-lh);
+ padding-top: 64px;
+}
+.navigation{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+@media screen and (min-width: 1024px) {
+ .icon{
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 169px;
+  height: 169px;
+ }
+
+ .title{
+  font-family: var(--h1-desc-ff);
+  font-size: var(--h1-desc-md-fs);
+  font-weight: var(--h1-desc-fw);
+  width: 50%;
+ }
+
+ .info{
+  flex-direction: row;
+justify-content: space-between;
+ }
+
+
+}
