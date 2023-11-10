@@ -2,34 +2,43 @@
   {
     "id": "1",
     "title": "Walking School",
-    "desc": "Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat",
+    "desc": "The website is a registration platform for war veterans with amputations, facilitating their participation in the Walking School project and related community initiatives. It targets veterans, partners, and investors, focusing on rehabilitation and support.",
     "stack": [
-      "React", "CSS", "React Query", "REST API", "Jest"
+      "React",
+      "CSS",
+      "React Query",
+      "REST API",
+      "Jest"
     ],
-    "website" : "https://www.walking-school.site/",
+    "website": "https://www.walking-school.site/",
     "git": "https://github.com/lanina90/walking-school-baza",
-    "img" : "https://s3-alpha-sig.figma.com/img/2c61/de59/7f52b0f3f098cf9a49ab74f2092c7655?Expires=1700438400&Signature=NmmLywOAovkFfWVNtCtibGGTy7Li~Ay8oueTWuvJPkglZoIIEce80PXz9rquaFX72dcuXArj3zR7H-DZc3fa6L8RKdh~OqkvnBgPCxQX~cxpLHEWe~NfrkDGKS35hyV0oE8lHJU15OJpR4lAQPHd7ikLCLsbWnacxNhXauJMmJb9xxSn9d9X6tSw8R5A9QZgPN8vuw94sZ5oMq-DuJNtxMeGK3Rb6zOlgALne05e77u1GDEJPTmnoJu4aGEa~Fwz9t4FwWBUuWw0cYzgTS4Xj~jbof7Wwpoz8yJ9VXnfxeV1r8iQiWA5ODg8XqDvnvChiRIzZQamw0JbakA60sqV2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    "img": "https://s3-alpha-sig.figma.com/img/2c61/de59/7f52b0f3f098cf9a49ab74f2092c7655?Expires=1700438400&Signature=NmmLywOAovkFfWVNtCtibGGTy7Li~Ay8oueTWuvJPkglZoIIEce80PXz9rquaFX72dcuXArj3zR7H-DZc3fa6L8RKdh~OqkvnBgPCxQX~cxpLHEWe~NfrkDGKS35hyV0oE8lHJU15OJpR4lAQPHd7ikLCLsbWnacxNhXauJMmJb9xxSn9d9X6tSw8R5A9QZgPN8vuw94sZ5oMq-DuJNtxMeGK3Rb6zOlgALne05e77u1GDEJPTmnoJu4aGEa~Fwz9t4FwWBUuWw0cYzgTS4Xj~jbof7Wwpoz8yJ9VXnfxeV1r8iQiWA5ODg8XqDvnvChiRIzZQamw0JbakA60sqV2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
   },
   {
     "id": "2",
     "title": "HYST",
-    "desc": "Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat",
+    "desc": "A platform where information about state and public initiatives for war veterans from the war with Russia is concentrated. The initiatives have been formed starting from 2023 and concern various spheres of public life.",
     "stack": [
-      "React", "TailwindCSS", "TypeScript", "REST API"
+      "React",
+      "TailwindCSS",
+      "TypeScript",
+      "REST API"
     ],
-    "website" : "https://hyst.site/",
+    "website": "https://hyst.site/",
     "git": "https://github.com/lanina90/veterano-front/tree/main",
-    "img" : "https://s3-alpha-sig.figma.com/img/2c61/de59/7f52b0f3f098cf9a49ab74f2092c7655?Expires=1700438400&Signature=NmmLywOAovkFfWVNtCtibGGTy7Li~Ay8oueTWuvJPkglZoIIEce80PXz9rquaFX72dcuXArj3zR7H-DZc3fa6L8RKdh~OqkvnBgPCxQX~cxpLHEWe~NfrkDGKS35hyV0oE8lHJU15OJpR4lAQPHd7ikLCLsbWnacxNhXauJMmJb9xxSn9d9X6tSw8R5A9QZgPN8vuw94sZ5oMq-DuJNtxMeGK3Rb6zOlgALne05e77u1GDEJPTmnoJu4aGEa~Fwz9t4FwWBUuWw0cYzgTS4Xj~jbof7Wwpoz8yJ9VXnfxeV1r8iQiWA5ODg8XqDvnvChiRIzZQamw0JbakA60sqV2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    "img": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_8iBKJLB8va.gif?alt=media&token=4fbf5e6f-8678-431b-abef-b6442edd85cc"
   },
   {
     "id": "3",
     "title": "MovieMagic",
-    "desc": "Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat Do consectetur proident proident id eiusmod deserunt consequat",
+    "desc": "Website that features an extensive collection of movie descriptions and their ratings. It offers a platform for users to explore various films, learn about their details, and see how they have been rated.",
     "stack": [
-      "React", "REST API", "FireBase"
+      "React",
+      "REST API",
+      "FireBase"
     ],
-    "website" : "https://magicmovie.fun/",
+    "website": "https://magicmovie.fun/",
     "git": "https://github.com/lanina90/CourseReactProject/tree/main",
-    "img" : "https://s3-alpha-sig.figma.com/img/2c61/de59/7f52b0f3f098cf9a49ab74f2092c7655?Expires=1700438400&Signature=NmmLywOAovkFfWVNtCtibGGTy7Li~Ay8oueTWuvJPkglZoIIEce80PXz9rquaFX72dcuXArj3zR7H-DZc3fa6L8RKdh~OqkvnBgPCxQX~cxpLHEWe~NfrkDGKS35hyV0oE8lHJU15OJpR4lAQPHd7ikLCLsbWnacxNhXauJMmJb9xxSn9d9X6tSw8R5A9QZgPN8vuw94sZ5oMq-DuJNtxMeGK3Rb6zOlgALne05e77u1GDEJPTmnoJu4aGEa~Fwz9t4FwWBUuWw0cYzgTS4Xj~jbof7Wwpoz8yJ9VXnfxeV1r8iQiWA5ODg8XqDvnvChiRIzZQamw0JbakA60sqV2A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+    "img": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Xnj8NMlpim.gif?alt=media&token=c7210013-ac30-4268-8b90-4ed674e0d8a0"
   }
 ]
