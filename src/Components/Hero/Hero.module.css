@@ -134,10 +134,11 @@
   display: flex;
   flex-direction: column;
   gap: 1px;
-  transform: translateX(0);
+  transform: translateX(0) translateY(50px);
   transition: all 2s ease-out;
   opacity: 0;
   width: 450px;
+  padding-bottom: 30px;
  }
 
  .about.opacity{
@@ -180,7 +181,8 @@
  }
 
  .about {
-  transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(50px);
+  padding-bottom: 30px;
   width: 650px;
   transition: transform 2s ease-in;
  }
@@ -214,8 +216,15 @@
 
  .about{
   width: 700px;
-  transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(50px);
+  padding-bottom: 30px;
  }
+
+ .about.opacity{
+  transform: translateX(10%) translateY(50px);
+
+ }
+
  .hi{
   font-size: 56px;
  }
