@@ -1,0 +1,55 @@
+.container{
+ /*width: 169px;*/
+ /*height: 169px;*/
+ /*display: flex;*/
+ /*align-items: center;*/
+ /*justify-content: center;*/
+ /*border-radius: 50%;*/
+ /*border: 1px solid #BB84E8 ;*/
+ /*position: relative;*/
+ /*overflow: hidden;*/
+}
+
+
+.svg-animation {
+ position: absolute;
+ opacity: 0;
+ transition: all 1s ease;
+}
+
+/* Анімація для першого SVG */
+#svg1 {
+ animation: animateSvg1 3s forwards;
+}
+
+/* Анімація для другого SVG */
+#svg2 {
+ animation: animateSvg2 3s 1s forwards; /* затримка 1с */
+}
+
+/* Анімація для третього SVG */
+#svg3 {
+ animation: animateSvg3 3s 2s forwards; /* затримка 2с */
+}
+
+/* Keyframes для анімацій */
+@keyframes animateSvg1 {
+ to {
+  opacity: 1;
+  transform: translateX(0px);
+ }
+}
+
+@keyframes animateSvg2 {
+ to {
+  opacity: 1;
+  transform: translateX(20px); /* Легке зміщення для накладання */
+ }
+}
+
+@keyframes animateSvg3 {
+ to {
+  opacity: 1;
+  transform: translateX(40px); /* Легке зміщення для накладання */
+ }
+}

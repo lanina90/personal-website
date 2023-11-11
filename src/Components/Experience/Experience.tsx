@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import {ReactComponent as Work} from '../../assets/img/work/experience.svg';
+import useIntersectionObserver from '../../hooks/useIntersectionObserver';
 import {useMedia} from '../../hooks/useMedia';
 import Container from '../Container/Container';
 import Heading from '../SectionHeading/Heading';
@@ -9,12 +10,17 @@ import styles from './Experience.module.css'
 
 const Experience = () => {
   const {isDesktop, isDeskLg} = useMedia()
+  const [elementRef, isIntersected] = useIntersectionObserver()
+
   return (
     <Container component={'section'} className={styles.experience} id={'work'}>
       <Heading
         icon={<Work/>}
         title={(isDesktop || isDeskLg) ? 'Experience' : 'Work history'}
-        text={'Featured Work and Project Showcase'}/>
+        text={'Featured Work and Project Showcase'}
+        isIntersected={isIntersected}
+        ref={elementRef}
+      />
 
       {work.map(item =>
         <Fragment key={item.id}>
