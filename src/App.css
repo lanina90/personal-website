@@ -24,13 +24,13 @@ body {
 
 @keyframes animate-svg-stroke-1 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -51,13 +51,13 @@ body {
 
 @keyframes animate-svg-stroke-2 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -68,13 +68,13 @@ body {
 
 @keyframes animate-svg-stroke-3 {
  0% {
-  stroke-dashoffset: 325.732666015625px;
-  stroke-dasharray: 325.732666015625px;
+  stroke-dashoffset: 325px;
+  stroke-dasharray: 325px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 325.732666015625px;
+  stroke-dasharray: 325px;
  }
 }
 
@@ -95,13 +95,13 @@ body {
 
 @keyframes animate-svg-stroke-4 {
  0% {
-  stroke-dashoffset: 103.37184143066406px;
-  stroke-dasharray: 103.37184143066406px;
+  stroke-dashoffset: 103px;
+  stroke-dasharray: 103px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 103.37184143066406px;
+  stroke-dasharray: 103px;
  }
 }
 
@@ -112,13 +112,13 @@ body {
 
 @keyframes animate-svg-stroke-5 {
  0% {
-  stroke-dashoffset: 195.47601318359375px;
-  stroke-dasharray: 195.47601318359375px;
+  stroke-dashoffset: 195px;
+  stroke-dasharray: 195px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 195.47601318359375px;
+  stroke-dasharray: 195px;
  }
 }
 
@@ -129,13 +129,13 @@ body {
 
 @keyframes animate-svg-stroke-6 {
  0% {
-  stroke-dashoffset: 48.67131805419922px;
-  stroke-dasharray: 48.67131805419922px;
+  stroke-dashoffset: 48px;
+  stroke-dasharray: 48px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 48.67131805419922px;
+  stroke-dasharray: 48px;
  }
 }
 
@@ -146,13 +146,13 @@ body {
 
 @keyframes animate-svg-stroke-7 {
  0% {
-  stroke-dashoffset: 352.3226318359375px;
-  stroke-dasharray: 352.3226318359375px;
+  stroke-dashoffset: 352px;
+  stroke-dasharray: 352px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 352.3226318359375px;
+  stroke-dasharray: 352px;
  }
 }
 
@@ -173,13 +173,13 @@ body {
 
 @keyframes animate-svg-stroke-8 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -200,13 +200,13 @@ body {
 
 @keyframes animate-svg-stroke-9 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -217,13 +217,13 @@ body {
 
 @keyframes animate-svg-stroke-10 {
  0% {
-  stroke-dashoffset: 181.23855590820312px;
-  stroke-dasharray: 181.23855590820312px;
+  stroke-dashoffset: 181px;
+  stroke-dasharray: 181px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 181.23855590820312px;
+  stroke-dasharray: 181px;
  }
 }
 
@@ -244,13 +244,13 @@ body {
 
 @keyframes animate-svg-stroke-11 {
  0% {
-  stroke-dashoffset: 269.1734619140625px;
-  stroke-dasharray: 269.1734619140625px;
+  stroke-dashoffset: 269px;
+  stroke-dasharray: 269px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 269.1734619140625px;
+  stroke-dasharray: 269px;
  }
 }
 
@@ -261,13 +261,13 @@ body {
 
 @keyframes animate-svg-stroke-12 {
  0% {
-  stroke-dashoffset: 95.09857940673828px;
-  stroke-dasharray: 95.09857940673828px;
+  stroke-dashoffset: 95px;
+  stroke-dasharray: 95px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 95.09857940673828px;
+  stroke-dasharray: 95px;
  }
 }
 
@@ -288,13 +288,13 @@ body {
 
 @keyframes animate-svg-stroke-13 {
  0% {
-  stroke-dashoffset: 95.09857940673828px;
-  stroke-dasharray: 95.09857940673828px;
+  stroke-dashoffset: 95px;
+  stroke-dasharray: 95px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 95.09857940673828px;
+  stroke-dasharray: 95px;
  }
 }
 
@@ -342,13 +342,13 @@ body {
 
 @keyframes animate-svg-stroke-15 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -369,13 +369,13 @@ body {
 
 @keyframes animate-svg-stroke-16 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -386,13 +386,13 @@ body {
 
 @keyframes animate-svg-stroke-17 {
  0% {
-  stroke-dashoffset: 248.6292724609375px;
-  stroke-dasharray: 248.6292724609375px;
+  stroke-dashoffset: 248px;
+  stroke-dasharray: 248px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 248.6292724609375px;
+  stroke-dasharray: 248px;
  }
 }
 
@@ -403,13 +403,13 @@ body {
 
 @keyframes animate-svg-stroke-18 {
  0% {
-  stroke-dashoffset: 264.87689208984375px;
-  stroke-dasharray: 264.87689208984375px;
+  stroke-dashoffset: 264px;
+  stroke-dasharray: 264px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 264.87689208984375px;
+  stroke-dasharray: 264px;
  }
 }
 
@@ -430,13 +430,13 @@ body {
 
 @keyframes animate-svg-stroke-19 {
  0% {
-  stroke-dashoffset: 138.31590270996094px;
-  stroke-dasharray: 138.31590270996094px;
+  stroke-dashoffset: 138px;
+  stroke-dasharray: 138px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 138.31590270996094px;
+  stroke-dasharray: 138px;
  }
 }
 
@@ -447,13 +447,13 @@ body {
 
 @keyframes animate-svg-stroke-20 {
  0% {
-  stroke-dashoffset: 419.27203369140625px;
-  stroke-dasharray: 419.27203369140625px;
+  stroke-dashoffset: 419px;
+  stroke-dasharray: 419px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 419.27203369140625px;
+  stroke-dasharray: 419px;
  }
 }
 
@@ -474,13 +474,13 @@ body {
 
 @keyframes animate-svg-stroke-21 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -501,13 +501,13 @@ body {
 
 @keyframes animate-svg-stroke-22 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -518,13 +518,13 @@ body {
 
 @keyframes animate-svg-stroke-23 {
  0% {
-  stroke-dashoffset: 308.1959533691406px;
-  stroke-dasharray: 308.1959533691406px;
+  stroke-dashoffset: 308px;
+  stroke-dasharray: 308px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 308.1959533691406px;
+  stroke-dasharray: 308px;
  }
 }
 
@@ -545,13 +545,13 @@ body {
 
 @keyframes animate-svg-stroke-24 {
  0% {
-  stroke-dashoffset: 308.302734375px;
-  stroke-dasharray: 308.302734375px;
+  stroke-dashoffset: 308px;
+  stroke-dasharray: 308px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 308.302734375px;
+  stroke-dasharray: 308px;
  }
 }
 
@@ -562,13 +562,13 @@ body {
 
 @keyframes animate-svg-stroke-25 {
  0% {
-  stroke-dashoffset: 147.4597930908203px;
-  stroke-dasharray: 147.4597930908203px;
+  stroke-dashoffset: 147px;
+  stroke-dasharray: 147px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 147.4597930908203px;
+  stroke-dasharray: 147px;
  }
 }
 
@@ -579,13 +579,13 @@ body {
 
 @keyframes animate-svg-stroke-26 {
  0% {
-  stroke-dashoffset: 677.9999389648438px;
-  stroke-dasharray: 677.9999389648438px;
+  stroke-dashoffset: 677px;
+  stroke-dasharray: 677px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 677.9999389648438px;
+  stroke-dasharray: 677px;
  }
 }
 
@@ -606,13 +606,13 @@ body {
 
 @keyframes animate-svg-stroke-27 {
  0% {
-  stroke-dashoffset: 413.8180236816406px;
-  stroke-dasharray: 413.8180236816406px;
+  stroke-dashoffset: 413px;
+  stroke-dasharray: 413px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 413.8180236816406px;
+  stroke-dasharray: 413px;
  }
 }
 
@@ -633,13 +633,13 @@ body {
 
 @keyframes animate-svg-stroke-28 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -660,13 +660,13 @@ body {
 
 @keyframes animate-svg-stroke-29 {
  0% {
-  stroke-dashoffset: 1052.682861328125px;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dashoffset: 1052px;
+  stroke-dasharray: 1052px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 1052.682861328125px;
+  stroke-dasharray: 1052px;
  }
 }
 
@@ -677,13 +677,13 @@ body {
 
 @keyframes animate-svg-stroke-30 {
  0% {
-  stroke-dashoffset: 299.98602294921875px;
-  stroke-dasharray: 299.98602294921875px;
+  stroke-dashoffset: 299px;
+  stroke-dasharray: 299px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 299.98602294921875px;
+  stroke-dasharray: 299px;
  }
 }
 
@@ -694,13 +694,13 @@ body {
 
 @keyframes animate-svg-stroke-31 {
  0% {
-  stroke-dashoffset: 61.36602783203125px;
-  stroke-dasharray: 61.36602783203125px;
+  stroke-dashoffset: 61px;
+  stroke-dasharray: 61px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 61.36602783203125px;
+  stroke-dasharray: 61px;
  }
 }
 
@@ -721,13 +721,13 @@ body {
 
 @keyframes animate-svg-stroke-32 {
  0% {
-  stroke-dashoffset: 394.28955078125px;
-  stroke-dasharray: 394.28955078125px;
+  stroke-dashoffset: 394px;
+  stroke-dasharray: 394px;
  }
 
  100% {
   stroke-dashoffset: 0;
-  stroke-dasharray: 394.28955078125px;
+  stroke-dasharray: 394px;
  }
 }
 
