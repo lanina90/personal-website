@@ -1,29 +1,56 @@
-name: Build and Deploy
+name: 🚀 Deploy website on push
 
 on:
   push:
     branches:
-      - master  # замініть на ту гілку, з якої ви хочете деплоїти
-
+      - master
 jobs:
-  build-and-deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-
+    env:
+      REACT_APP_BASE_URL: ${{ secrets.REACT_APP_BASE_URL }}
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v3
+
+      - name: Use Node.js 18
+        uses: actions/setup-node@v2
+        with:
           node-version: 18
-    - name: Install Dependencies
-      run: npm install
 
-    - name: Build
-      run: npm run build
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build  
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.GIT_CPANEL_REACT_SERVER }}
+          username: ${{ secrets.GIT_CPANEL_REACT_USER }}
+          password: ${{ secrets.GIT_CPANEL_REACT_PASSWORD }}
+          protocol: ${{ secrets.GIT_CPANEL_REACT_PROTOCOL }}
+          local-dir: ./build/
+#jobs:
+#  build-and-deploy:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#    - name: Checkout
+#      uses: actions/checkout@v3
+#    - name: Set up Node.js
+#      uses: actions/setup-node@v3
+#      with:
+#          node-version: 18
+#    - name: Install Dependencies
+#      run: npm install
+#
+#    - name: Build
+#      run: npm run build
+#
+#    - name: Deploy to GitHub Pages
+#      uses: peaceiris/actions-gh-pages@v3
+#      with:
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
+#        publish_dir: ./build
