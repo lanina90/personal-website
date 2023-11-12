@@ -29,6 +29,7 @@ const Experience = () => {
             company={item.company}
             period={item.period}
             duties={item.duties}
+            info={item.info}
           />
         </Fragment>
       )}
