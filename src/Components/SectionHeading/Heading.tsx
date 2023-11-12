@@ -16,8 +16,8 @@ const Heading = forwardRef<HTMLDivElement, HeadingProps>(({icon, title, text, is
         {isIntersected && icon}
       </div>
       <div className={styles.heading}>
-        <h2 className={styles.title}>{title}</h2>
-        <p className={styles.text}>{text}</p>
+        <h2 className={`${styles.title} ${isIntersected ? styles.visible : styles.hidden}`}>{title}</h2>
+        <p className={`${styles.text} ${isIntersected ? styles['text-visible'] : styles['text-hidden']}`}>{text}</p>
       </div>
     </div>
   );

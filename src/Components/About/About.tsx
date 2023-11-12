@@ -11,8 +11,8 @@ const About = () => {
   return (
     <Container component={'section'} className={styles.container} id={'about'}>
       <div className={styles.about} ref={elementRef}>
-        {isIntersected && <Info/>}
-        <h2>About</h2>
+        {isIntersected && <div className={styles.icon}><Info/></div>}
+        <h2 className={isIntersected ? styles.visible : styles.hidden}>About</h2>
       </div>
       <div className={styles.info}>
         <div className={styles.image}>
