@@ -5,3 +5,4 @@ deployment:
     - /bin/bash -c 'npm run build'
     - /bin/cp -r ./build/* $DEPLOYPATH
   version: 1
+
