@@ -1,7 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
-import styles from '../Hero.module.css';
 import Container from '../../Container/Container';
 import Cube from '../../Cube/Cube';
+import styles from '../Hero.module.css';
 
 const HeroDesc = () => {
   const [isIntersecting, setIsIntersecting] = useState(false);
@@ -39,7 +39,7 @@ const HeroDesc = () => {
      <Container component={'div'} className={`${styles.about} ${isIntersecting ? styles.opacity : ''}`}>
        <p className={styles.hi}>Hi,</p>
        <p className={styles.text}>
-         "I'm Kateryna Lanina, an experienced frontend developer with a passion for crafting engaging user
+         "I'm Kateryna Lanina, a frontend developer with a passion for crafting engaging user
          experiences. Welcome to my portfolio!"
        </p>
      </Container>

@@ -4,10 +4,14 @@
     "position": "junior frontend developer",
     "company": "BazaTrainee Ukraine",
     "period": "2023 - now",
+    "info": "",
     "duties": [
-      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
-      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
-      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
+      "Developing and maintaining user-facing features for web applications using HTML, CSS, and JavaScript.",
+      "Assisting in the design of web application layouts, ensuring responsiveness and cross-browser compatibility.",
+      "Collaborating with back-end developers and web designers to improve usability and meet project requirements.",
+      "Debugging and troubleshooting website problems, and implementing fixes in a timely manner.",
+      "Actively learning and applying new technologies and frameworks to enhance web functionalities.",
+      "Participating in code reviews and adhering to development best practices to maintain code quality."
     ]
   },
   {
@@ -15,32 +19,25 @@
     "position": "Head of SEO",
     "company": "Devellar",
     "period": "2020-2022",
+    "info": "",
     "duties": [
-      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
-      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
-      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
+      "Team Leadership: Leading and mentoring 5 teams of SEO specialists, fostering a collaborative environment to encourage innovative solutions and professional growth.",
+      "SEO Strategy Development: Crafting comprehensive SEO strategies tailored to business goals, focusing on keyword research, content optimization, and user experience improvements.",
+      "Analytics and Reporting: Analyzing website performance, and preparing detailed reports to track progress and inform decision-making.",
+      "Budget Management: Efficiently managing the SEO budget, ensuring resources are utilized effectively to achieve maximum ROI."
     ]
   },
   {
     "id": "3",
-    "position": "SEO Manager",
-    "company": "Devellar",
-    "period": "2019-2020",
+    "position": "SEO Specialist",
+    "company": "Hexa, Devellar ",
+    "period": "2014-2020",
+    "info": "",
     "duties": [
-      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
-      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
-      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
-    ]
-  },
-  {
-    "id": "4",
-    "position": "Senior SEO",
-    "company": "Devellar",
-    "period": "2017-2018",
-    "duties": [
-      "Demonstrated strong leadership skills in inventory management, overseeing receiving, counting, and returning tasks, and ensuring accurate inventory data in the system",
-      "Collaborated effectively with cross-functional teams, fostering seamless operations, effective communication, and delivering high-quality customer service.",
-      "Utilised problem-solving and analytical skills to gather and analyse inventory data, identify trends, and provide insights for informed decision-making."
+      "Team Leadership: Leading and mentoring a team of SEO specialists, fostering a collaborative environment to encourage innovative solutions and professional growth.",
+      "Content Optimization: Collaborating with content creators to ensure SEO best practices are integrated, enhancing content quality and relevance for target audiences.",
+      "Technical SEO: Overseeing technical aspects of SEO, including site architecture, mobile optimization, and site speed enhancements.",
+      "Link Building: Developing and executing link-building strategies to improve domain authority and search rankings."
     ]
   }
 ]

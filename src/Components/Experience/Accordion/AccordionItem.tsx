@@ -8,9 +8,10 @@ interface AccordionItemProps {
   position: string,
   company: string,
   period: string,
-  duties: string[]
+  duties: string[],
+  info?: string
 }
-const AccordionItem: FC<AccordionItemProps> = ({position, company, period, duties}) => {
+const AccordionItem: FC<AccordionItemProps> = ({position, company, period, duties, info}) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const onClickHandler = () => {
@@ -34,7 +35,10 @@ const AccordionItem: FC<AccordionItemProps> = ({position, company, period, dutie
           </div>
         </div>
         {isOpen &&
-          <DutiesList duties={duties}/>
+          <>
+            {info && <div>{info}</div>}
+            <DutiesList duties={duties}/>
+          </>
         }
       </div>
 
