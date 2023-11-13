@@ -16,11 +16,10 @@ const About = () => {
       </div>
       <div className={styles.info}>
         <div className={styles.image}>
-          {isIntersected &&  <img
+          <img
             alt="Kateryna Lanina"
             src={Photo}
           />
-          }
         </div>
         <div>
           <p className={styles.text}>I'm a Front-End Developer with a decade of experience in SEO, which gives me a

@@ -42,13 +42,13 @@
  border-radius: 8px;
  position: relative;
  width: 100%;
- height: 332px;
+
 }
 
 .image img {
  border-radius: 8px;
  width: 100%;
- height: 332px;
+ height: 100%;
 
 }
 
