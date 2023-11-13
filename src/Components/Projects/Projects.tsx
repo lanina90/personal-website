@@ -31,7 +31,9 @@ const Projects = () => {
               stack={item.stack}
               website={item.website}
               git={item.git}
-              img={item.img}
+              webm={item.webm}
+              mp4={item.mp4}
+              poster={item.poster}
             />
           </Fragment>
         )}

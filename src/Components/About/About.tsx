@@ -1,4 +1,5 @@
 import React from 'react';
+import {LazyLoadImage} from 'react-lazy-load-image-component';
 import {ReactComponent as Info} from '../../assets/img/about/info.svg';
 import Photo from '../../assets/img/about/me.jpg';
 import useIntersectionObserver from '../../hooks/useIntersectionObserver';
@@ -16,7 +17,11 @@ const About = () => {
       </div>
       <div className={styles.info}>
         <div className={styles.image}>
-          <img src={Photo} alt="Kateryna Lanina"/>
+          <LazyLoadImage
+            alt="Kateryna Lanina"
+            src={Photo}
+            effect="blur"
+          />
         </div>
         <div>
           <p className={styles.text}>I'm a Front-End Developer with a decade of experience in SEO, which gives me a
