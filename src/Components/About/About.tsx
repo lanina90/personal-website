@@ -1,6 +1,6 @@
 import React from 'react';
 import {ReactComponent as Info} from '../../assets/img/about/info.svg';
-import Photo from '../../assets/img/about/me.jpg';
+import Photo from '../../assets/img/about/me.webp';
 import useIntersectionObserver from '../../hooks/useIntersectionObserver';
 import Container from '../Container/Container';
 import styles from './About.module.css'
@@ -19,6 +19,8 @@ const About = () => {
           <img
             alt="Kateryna Lanina"
             src={Photo}
+            width="100%"
+            height="100%"
           />
         </div>
         <div>
