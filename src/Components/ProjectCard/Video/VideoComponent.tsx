@@ -22,7 +22,7 @@ const VideoComponent: FC<VideoComponentProps> = ({ mp4, webm,poster } ) => {
               if (!currentVideo.paused) {
                 currentVideo.pause();
               }
-            }, 100)
+            }, 500)
           }
         }
       },
