@@ -8,14 +8,15 @@ interface VideoComponentProps{
 const VideoComponent: FC<VideoComponentProps> = ({ mp4, webm,poster } ) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   useEffect(() => {
+    const currentVideo = videoRef.current;
     const observer = new IntersectionObserver(
       (entries) => {
         const video = entries[0];
-        if(videoRef.current){
+        if(currentVideo){
           if (video.isIntersecting) {
-            videoRef.current.play();
+            currentVideo.play();
           } else {
-            videoRef.current.pause();
+            currentVideo.pause();
           }
         }
       },
@@ -24,13 +25,13 @@ const VideoComponent: FC<VideoComponentProps> = ({ mp4, webm,poster } ) => {
       }
     );
 
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
+    if (currentVideo) {
+      observer.observe(currentVideo);
     }
 
     return () => {
-      if (videoRef.current) {
-        observer.unobserve(videoRef.current);
+      if (currentVideo) {
+        observer.unobserve(currentVideo);
       }
     };
   }, []);
