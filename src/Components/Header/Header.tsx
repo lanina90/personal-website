@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import {ReactComponent as Close} from '../../assets/img/header/close.svg';
-import Logo from '../../assets/img/header/logo.svg'
 import {ReactComponent as Menu} from '../../assets/img/header/menu.svg';
 import {useMedia} from '../../hooks/useMedia'
 import Container from '../Container/Container'
@@ -18,8 +17,8 @@ const Header = () => {
     <header className={styles.wrapper}>
       {isOpen && <div className={styles.background}/>}
       <Container component="div" className={styles.header}>
-        <a href="/personal-website">
-          <img src={Logo} alt="Logo" width="48px" height="48px"/>
+        <a href="/">
+          <img src='/img/girl.svg' alt="Logo" width="48px" height="48px"/>
         </a>
         {isMobile
           ? isOpen

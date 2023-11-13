@@ -1,6 +1,7 @@
 import React, {FC, lazy} from 'react'
 import './App.css'
 import Header from './Components/Header/Header';
+import ActionBar from './Components/UI/ActionBar/ActionBar';
 
 const Hero = lazy(() => import('./Components/Hero/Hero'));
 const About = lazy(() => import('./Components/About/About'));
@@ -21,6 +22,7 @@ const App: FC = () => {
         <Projects/>
         <Experience/>
         <Contacts/>
+        <ActionBar/>
       </div>
     </>
   )

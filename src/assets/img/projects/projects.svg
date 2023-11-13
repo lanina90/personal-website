@@ -6,15 +6,15 @@
     <g clip-path="url(#clip0_406_1140)">
         <path d="M141.705 58.5635V119.779C141.705 124.365 138.009 128.066 133.432 128.066H35.2575C30.6797 128.066 26.9844 124.365 26.9844 119.779V58.5635" stroke="url(#paint1_linear_406_1140)" class="svg-elem-17"></path>
         <path d="M135.252 40H33.3825C28.8047 40 25.1094 43.7017 25.1094 48.2873V56.5193H143.58V48.2873C143.58 43.7017 139.885 40 135.252 40Z" fill="#292040" class="svg-elem-18"></path>
-        <path d="M36.7464 48.7845H33.9336M42.7031 48.7845H39.9454M48.7149 48.7845H45.902M70.225 102.486L60.6833 96.9613L51.1417 91.4365L60.6833 85.9116L70.225 80.3868M92.9484 102.486L102.49 96.9613L112.032 91.4365L102.49 85.9116L92.9484 80.3868M88.7016 72.9834L74.1409 109.945" stroke="#0561FC" class="svg-elem-19"></path>
+        <path d="M36.7464 48.7845H33.9336M42.7031 48.7845H39.9454M48.7149 48.7845H45.902M70.225 102.486L60.6833 96.9613L51.1417 91.4365L60.6833 85.9116L70.225 80.3868M92.9484 102.486L102.49 96.9613L112.032 91.4365L102.49 85.9116L92.9484 80.3868M88.7016 72.9834L74.1409 109.945" stroke="#4be1ec" class="svg-elem-19"></path>
     </g>
     <defs>
         <linearGradient id="paint0_linear_406_1140" x1="84.5" y1="0" x2="84.5" y2="169" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#0561FC"></stop>
+            <stop stop-color="#4be1ec"></stop>
             <stop offset="1" stop-color="#BB84E8"></stop>
         </linearGradient>
         <linearGradient id="paint1_linear_406_1140" x1="84.3446" y1="58.5635" x2="84.3446" y2="128.066" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#0561FC"></stop>
+            <stop stop-color="#4be1ec"></stop>
             <stop offset="1" stop-color="#BB84E8"></stop>
         </linearGradient>
         <clipPath id="clip0_406_1140">
