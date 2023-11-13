@@ -19,12 +19,11 @@
  height: 251px;
 }
 
-.preview img {
+.preview video{
  width: 100%;
  height: 100%;
- flex-shrink: 0;
+ object-fit: cover;
  border-radius: 8px;
-
 }
 
 .preview::after {
@@ -38,7 +37,6 @@
  height: 100%;
  border-radius: 8px;
  opacity: .6;
-
 }
 
 .wrapper{

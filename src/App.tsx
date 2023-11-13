@@ -1,12 +1,14 @@
-import React, {FC, Fragment} from 'react'
+import React, {FC, lazy} from 'react'
 import './App.css'
-import About from './Components/About/About';
-import Contacts from './Components/Contacts/Contacts';
-import Experience from './Components/Experience/Experience';
-import Header from './Components/Header/Header'
-import Hero from './Components/Hero/Hero'
-import Projects from './Components/Projects/Projects';
-import Skills from './Components/Skills/Skills';
+import Header from './Components/Header/Header';
+
+const Hero = lazy(() => import('./Components/Hero/Hero'));
+const About = lazy(() => import('./Components/About/About'));
+const Skills = lazy(() => import('./Components/Skills/Skills'));
+const Projects = lazy(() => import('./Components/Projects/Projects'));
+const Experience = lazy(() => import('./Components/Experience/Experience'));
+const Contacts = lazy(() => import('./Components/Contacts/Contacts'));
+
 
 const App: FC = () => {
   return (
