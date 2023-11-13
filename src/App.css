@@ -16,7 +16,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
- background: linear-gradient(#b367e5, #0c1c70);
+ background: linear-gradient(#b367e5, #4be1ec);
  border-radius: 4px;
  height: 80px;
 }
