@@ -39,7 +39,7 @@ const HeroDesc = () => {
      <Container component={'div'} className={`${styles.about} ${isIntersecting ? styles.opacity : ''}`}>
        <p className={styles.hi}>Hi,</p>
        <p className={styles.text}>
-         "I'm Kateryna Lanina, a frontend developer with a passion for crafting engaging user
+         "I'm Kateryna Lanina, a Front-End Developer with a passion for crafting engaging user
          experiences. Welcome to my portfolio!"
        </p>
      </Container>

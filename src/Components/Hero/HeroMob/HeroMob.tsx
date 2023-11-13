@@ -21,13 +21,9 @@ const HeroMob = () => {
         <div className={`${styles.about} ${isActive ? styles.active : ''}`}>
           <p className={styles.hi}>Hi,</p>
           <p className={styles.text}>
-            "I'm Kateryna Lanina, a frontend developer with a passion for crafting engaging user
+            "I'm Kateryna Lanina, a Front-End Developer with a passion for crafting engaging user
             experiences. Welcome to my portfolio!"
           </p>
-          {/*<p className={styles.text}>*/}
-          {/*  I'm a Front-End Developer with a decade of experience in SEO, which gives me a comprehensive understanding of*/}
-          {/*  website structure and optimization requirements. I'm passionate about creating websites, 3D visuals, and developing robust web applications.*/}
-          {/*</p>*/}
         </div>
       </div>
 

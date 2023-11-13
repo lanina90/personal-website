@@ -14,9 +14,15 @@ const VideoComponent: FC<VideoComponentProps> = ({ mp4, webm,poster } ) => {
         const video = entries[0];
         if(currentVideo){
           if (video.isIntersecting) {
-            currentVideo.play();
+            currentVideo.play().catch(error => {
+              alert(error)
+            });
           } else {
-            currentVideo.pause();
+            setTimeout(() => {
+              if (!currentVideo.paused) {
+                currentVideo.pause();
+              }
+            }, 100)
           }
         }
       },
