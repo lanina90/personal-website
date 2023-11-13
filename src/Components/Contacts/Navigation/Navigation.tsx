@@ -18,20 +18,20 @@ const Navigation = () => {
 
   return (
     <>
-      <ul className={`${styles.menu} ${isActive ? styles.active : ''}`}>
+      <div className={`${styles.menu} ${isActive ? styles.active : ''}`}>
         <div
           className={`${styles.toggle} ${isActive ? styles.active : ''}`}
           onClick={() => setIsActive(!isActive)}>
           <IoCloseOutline/></div>
         {menuItems.map(({icon, url}, index) => (
-          <li className={styles.item} key={index} style={{'--i': index} as React.CSSProperties}>
+          <div className={styles.item} key={index} style={{'--i': index} as React.CSSProperties}>
             <a href={url}>
               <span className={styles.icon}>{icon}</span>
             </a>
-          </li>
+          </div>
         ))
         }
-      </ul>
+      </div>
     </>
   );
 };
