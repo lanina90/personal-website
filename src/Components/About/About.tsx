@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {ReactComponent as Info} from '../../assets/img/about/info.svg';
 import Photo from '../../assets/img/about/me.webp';
 import useIntersectionObserver from '../../hooks/useIntersectionObserver';
@@ -7,7 +7,19 @@ import styles from './About.module.css'
 
 const About = () => {
   const [elementRef, isIntersected] = useIntersectionObserver()
+  const [loadedImage, setLoadedImage] = useState<string | null>(null);
 
+  useEffect(() => {
+    const loadImage = () => {
+      const image = new Image();
+      image.src = Photo;
+      image.onload = () => {
+        setLoadedImage(image.src);
+      };
+    };
+
+    loadImage();
+  }, []);
   return (
     <Container component={'section'} className={styles.container} id={'about'}>
       <div className={styles.about} ref={elementRef}>
@@ -16,12 +28,7 @@ const About = () => {
       </div>
       <div className={styles.info}>
         <div className={styles.image}>
-          <img
-            alt="Kateryna Lanina"
-            src={Photo}
-            width="100%"
-            height="100%"
-          />
+          {loadedImage && <img alt="Kateryna Lanina" src={loadedImage} width="100%" height="100%" />}
         </div>
         <div>
           <p className={styles.text}>I'm a Front-End Developer with a decade of experience in SEO, which gives me a
