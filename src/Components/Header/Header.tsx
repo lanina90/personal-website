@@ -18,7 +18,9 @@ const Header = () => {
    <header className={styles.wrapper}>
      {isOpen && <div className={styles.background}/> }
      <Container component="div" className={styles.header}>
-       <a href="/personal-website"><img src={Logo} alt="Logo"/></a>
+       <a href="/personal-website">
+         <img src={Logo} alt="Logo" width='48px' height='48px'/>
+       </a>
        {isMobile
          ? isOpen
            ? <Close onClick={onClickMenu} style={{cursor: 'pointer'}}/>
