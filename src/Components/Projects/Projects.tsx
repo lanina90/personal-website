@@ -37,8 +37,8 @@ const Projects = () => {
             />
           </Fragment>
         )}
-
       </div>
+      <p className={styles.caption}>***More projects you can find in <a href="https://github.com/lanina90">GitHub repository</a> </p>
     </Container>
   );
 };

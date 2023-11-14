@@ -15,6 +15,13 @@
  padding: 0 5vw;
 }
 
+.caption{
+ font-family: var(--caption-ff);
+ font-size: var(--caption-fs);
+ line-height: var(--caption-lh);
+ font-weight: var(--caption-fw);
+ color: var(--dark-grey)
+}
 
 @media screen and (min-width: 768px) {
  .projects{
