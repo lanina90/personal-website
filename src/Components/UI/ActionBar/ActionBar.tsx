@@ -8,7 +8,7 @@ import styles from './ActionBar.module.css'
 const ActionBar = () => {
   return (
     <div className={styles.actionBar}>
-      <a href="/" >
+      <a href="/resume/Kateryna_Lanina_Front_End_Developer.pdf" download="Kateryna Lanina Front End Developer.pdf" >
         <div data-title='Resume' className={styles.action} >
           <BsDownload fill={'#DEE1E6'} size={30}/>
         </div>
