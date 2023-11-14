@@ -1,21 +1,75 @@
-.actionBar{
+.actionBar {
  position: fixed;
  top: 35vh;
  right: 0;
  z-index: 10;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 
 }
 
-.action{
+.action {
  width: 45px;
  height: 45px;
  display: flex;
  justify-content: center;
  align-items: center;
+ position: relative;
+}
+
+.action:hover svg {
+ z-index: 10000;
+ fill: #4be1ec;
+ cursor: pointer;
+}
+
+.action:after {
+ content: attr(data-title);
+ color: var(--dark-grey);
+ position: absolute;
+ top: 0;
+ right: 0;
+ width: 37vw;
+ height: 100%;
+ background: var(--blue);
+ transform: translateX(100%);
+ transition: transform 1.5s ease-out;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ padding-left: 5px;
+ border-radius: 8px 0 0 8px ;
+ font-size: var(--body-text-mob-fs);
+ font-family: var(--body-text-mob-ff);
+}
+
+.action:hover::after {
+ transform: translateX(0);
+}
+
+@media  screen and (min-width: 768px) {
+ .action:after {
+  width: 20vw;
+  padding-left: 5px;
+  font-size: var(--body-text-mob-fs);
+ }
+}
+
+@media  screen and (min-width: 1024px) {
+ .action:after {
+  width: 170px;
+  padding-left: 10px;
+  font-size: var(--body-text-desc-fs);
+ }
+}
+
+@media  screen and (min-width: 1280px) {
+ .action:after {
+  width: 200px;
+  padding-left: 10px;
+  font-size: var(--body-text-desc-fs);
+ }
 }
 
 
-.gradientIcon {
- background: linear-gradient(0deg, #4be1ec, #BB84E8);
- -webkit-background-clip: text;
-}
