@@ -1,8 +1,22 @@
 [
   {
+    "id": "4",
+    "title": "Digital Product Studio",
+    "desc": "2 days",
+    "stack": [
+      "NextJS",
+      "SCSS"
+    ],
+    "website": "https://digital-production-agency.vercel.app/",
+    "git": "https://github.com/lanina90/digital-production-agency",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Yo4SRy5SYV.png?alt=media&token=82751e07-fa3f-44d2-adff-acaf49fd1af5",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/ezgif.com-gif-to-webm-converter.webm?alt=media&token=db834b04-d396-4183-8efa-509d4baa0b69",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/ezgif.com-video-to-mp4-converter.mp4?alt=media&token=d2a2f715-a5db-49e4-bb45-6e329161a863"
+  },
+  {
     "id": "1",
     "title": "Walking School",
-    "desc": "The website is a registration platform for war veterans with amputations, facilitating their participation in the Walking School project and related community initiatives. It targets veterans, partners, and investors, focusing on rehabilitation and support.",
+    "desc": "1 month",
     "stack": [
       "React",
       "CSS",
@@ -19,7 +33,7 @@
   {
     "id": "2",
     "title": "HYST",
-    "desc": "A platform where information about state and public initiatives for war veterans from the war with Russia is concentrated. The initiatives have been formed starting from 2023 and concern various spheres of public life.",
+    "desc": "1 month",
     "stack": [
       "React",
       "TailwindCSS",
@@ -35,7 +49,7 @@
   {
     "id": "3",
     "title": "MovieMagic",
-    "desc": "Website that features an extensive collection of movie descriptions and their ratings. It offers a platform for users to explore various films, learn about their details, and see how they have been rated.",
+    "desc": "3 weeks",
     "stack": [
       "React",
       "REST API",
@@ -48,4 +62,5 @@
     "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/magicmovies.mp4?alt=media&token=9d113906-a666-4335-87f9-1294211184f0"
 
   }
+
 ]

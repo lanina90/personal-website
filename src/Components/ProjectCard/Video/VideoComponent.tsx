@@ -12,23 +12,21 @@ const VideoComponent: FC<VideoComponentProps> = ({ mp4, webm,poster } ) => {
     const observer = new IntersectionObserver(
       (entries) => {
         const video = entries[0];
-        if(currentVideo){
+        if (currentVideo) {
           if (video.isIntersecting) {
-            currentVideo.play().catch(error => {
-              alert(error)
-            });
+            if (currentVideo.paused) {
+              currentVideo.play().catch(error => {
+                console.error('Error playing video:', error);
+              });
+            }
           } else {
-            setTimeout(() => {
-              if (!currentVideo.paused) {
-                currentVideo.pause();
-              }
-            }, 500)
+            if (!currentVideo.paused) {
+              currentVideo.pause();
+            }
           }
         }
       },
-      {
-        threshold: 0.8
-      }
+      { threshold: 0.8 }
     );
 
     if (currentVideo) {

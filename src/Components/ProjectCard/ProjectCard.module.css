@@ -5,7 +5,7 @@
  padding: 32px 10px;
  gap: 24px;
  border-radius: 8px;
- background: var(--light-blue, #141625);
+ background: #141625;
  max-width: 475px;
  height: 700px;
 }
@@ -167,7 +167,7 @@
 
 @media screen and (min-width: 1280px) {
  .card {
-  padding: 36px 118px;
+  padding: 36px 30px;
  }
 
  .preview{
@@ -176,7 +176,7 @@
  }
 
  .wrapper{
-  width: 55%;
+  width: 60%;
  }
 
  .title {
