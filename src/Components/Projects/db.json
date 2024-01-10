@@ -1,11 +1,27 @@
 [
   {
+    "id": "5",
+    "title": "AI Email",
+    "desc": "5 days",
+    "stack": [
+      "NextJS",
+      "SCSS",
+      "TypeScript"
+    ],
+    "website": "https://ai-email-theta.vercel.app/",
+    "git": "https://github.com/lanina90/ai-email",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/aiemail.png?alt=media&token=69b4f80b-8a9f-4351-978b-3eb275211373",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/aiemail.webm?alt=media&token=4fce1ff1-6af2-425b-9bc4-7795f56f2c73",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/aiemail.mp4?alt=media&token=6da7730d-0a91-4079-889e-c75b952d8f9a"
+  },
+  {
     "id": "4",
     "title": "Digital Product Studio",
     "desc": "2 days",
     "stack": [
       "NextJS",
-      "SCSS"
+      "SCSS",
+      "TypeScript"
     ],
     "website": "https://digital-production-agency.vercel.app/",
     "git": "https://github.com/lanina90/digital-production-agency",
@@ -42,25 +58,9 @@
     ],
     "website": "https://hyst.site/",
     "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst_Screen.webp?alt=media&token=0a4ebc7f-fe42-4b54-81ba-b46bf58a1181",
-    "git": "https://github.com/lanina90/veterano-front/tree/main",
+    "git": "https://github.com/lanina90/veterano-front",
     "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst.webm?alt=media&token=c3283710-f3fa-4bda-b3de-cb086ddf9185",
     "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst_mp4.mp4?alt=media&token=d485b334-baa3-44f5-bf6c-5b2d10ac2285"
-  },
-  {
-    "id": "3",
-    "title": "MovieMagic",
-    "desc": "3 weeks",
-    "stack": [
-      "React",
-      "REST API",
-      "FireBase"
-    ],
-    "website": "https://magicmovie.fun/",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/movies.webp?alt=media&token=5ddcd7b4-9172-4d24-9fb5-17ddc6109ad0",
-    "git": "https://github.com/lanina90/CourseReactProject/tree/main",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/magicmovies.webm?alt=media&token=54b95305-ec72-4a36-859b-686ae94a15a9",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/magicmovies.mp4?alt=media&token=9d113906-a666-4335-87f9-1294211184f0"
-
   }
 
 ]
