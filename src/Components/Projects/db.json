@@ -1,8 +1,56 @@
 [
   {
+    "id": "8",
+    "title": "Chytozavryk",
+    "desc": "The main purpose of this project is to inspire a love for reading among young readers. Children read books, complete associated quizzes, and are rewarded with a \"Chytozavryk\" for their efforts. The platform includes a dashboard for parents, enabling them to register their children, and a separate dashboard for children, which showcases vital information such as the books read, rewards earned, and quizzes completed. Additionally, there is an admin panel for site management.\n\nI joined the project at its midway point. My responsibilities included finalizing the development of the child's dashboard, ensuring seamless integration of its features, and creating the admin panel from scratch. In my capacity as team lead, my duties extended to decomposing the layout into small components, task prioritization, performing code reviews, and overseeing project timelines to ensure timely completion.",
+    "stack": [
+      "NextJs",
+      "SCSS",
+      "React-Query",
+      "TypeScript",
+      "Formik"
+    ],
+    "website": "https://chytozavryk.top/",
+    "git": "https://github.com/lanina90/chytozavrik-frontend",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_xnxJFAbZml.png?alt=media&token=2f1a5ab7-1e61-4036-8a24-4c3999a2c081",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_lNXCA9OaNC.webm?alt=media&token=6bb2cda7-5919-4377-ac7b-ff914253ebbd",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_lNXCA9OaNC.mp4?alt=media&token=c0c18759-c93c-44d1-b83a-2885cabe880c"
+  },
+  {
+  "id": "7",
+  "title": "StatusAC",
+  "desc": "The website was developed for a law firm. I joined the project during its final stages. My primary responsibilities included optimizing the website for mobile devices and implementing modifications requested by the client. The most significant challenge I faced was working with styled components, a technology with which I had no prior experience. This required a rapid learning curve and adaptability to integrate effectively with the existing codebase.",
+  "stack": [
+    "React",
+    "Styled Components"
+  ],
+  "website": "https://statusac.com.ua/",
+  "git": "https://github.com/lanina90/advokato",
+  "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_T6Zm2yzeWj.jpg?alt=media&token=962669e1-0c1f-48ef-ac9c-bd11178cb5b5",
+  "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Pp6lSk0YC6.webm?alt=media&token=42bb06f7-ed72-4cb1-ad70-3d047915c617",
+  "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Pp6lSk0YC6.webm?alt=media&token=fba4bb6a-9713-48ad-91fc-62b4df83aef5"
+},
+  {
+    "id": "6",
+    "title": "Cat For Future",
+    "desc": "The primary objective of the website is to facilitate the adoption of cats by finding them new homes. It incorporates functionalities such as the reservation and cancellation of cat adoptions, user registration, and authentication. Furthermore, my role in the project was to develop an administrative panel for content management, implement authentication and registration processes, and integrate the website with third-party APIs.",
+    "stack": [
+      "React",
+      "SCSS",
+      "TypeScript",
+      "RTK Query",
+      "Formik"
+    ],
+    "website": "https://cat-for-future.netlify.app/",
+    "git": "https://github.com/lanina90/cat_for_future",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_XlyqlNCOuZ.jpg?alt=media&token=8f52966d-d687-4047-aabb-64f295fce42b",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.webm?alt=media&token=e4fcfd82-fee4-47e2-b26c-2216de6ecd8c",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.mp4?alt=media&token=f1cf0d3b-938e-4ab0-807f-8b8b4931adfe"
+  },
+  {
     "id": "5",
     "title": "AI Email",
-    "desc": "5 days",
+    "desc": "This project represents a personal endeavor, with the primary objective being the enhancement of my proficiency in Next.js, alongside a focused improvement of my SCSS and animation skills.",
     "stack": [
       "NextJS",
       "SCSS",
@@ -17,7 +65,7 @@
   {
     "id": "4",
     "title": "Digital Product Studio",
-    "desc": "2 days",
+    "desc": "This project represents a personal endeavor, with the principal objective being the advancement of my proficiency in Next.js alongside the refinement of my CSS/HTML skills.",
     "stack": [
       "NextJS",
       "SCSS",
@@ -32,7 +80,7 @@
   {
     "id": "1",
     "title": "Walking School",
-    "desc": "1 month",
+    "desc": "The website was created for the initiatives of Oleksandr Shvetsov, who conducts various events for the rehabilitation of veterans. The site allows you to receive information about the dates and conditions of events, as well as provides the opportunity to register for them. An administrator panel has also been implemented for managing content on the site. ",
     "stack": [
       "React",
       "CSS",
@@ -49,7 +97,7 @@
   {
     "id": "2",
     "title": "HYST",
-    "desc": "1 month",
+    "desc": "The platform aggregates information about state and public initiatives for veterans of the war with Russia is concentrated. Main features: search initiatives by city, category and keyword; admin panel for adding, editing and removing website's content.",
     "stack": [
       "React",
       "TailwindCSS",
@@ -62,5 +110,4 @@
     "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst.webm?alt=media&token=c3283710-f3fa-4bda-b3de-cb086ddf9185",
     "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst_mp4.mp4?alt=media&token=d485b334-baa3-44f5-bf6c-5b2d10ac2285"
   }
-
 ]

@@ -137,11 +137,14 @@
 
  .info {
   align-items: center;
-  gap: 80px;
+
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 100px;
  }
 
  .image {
-  width: 512px;
+  width: 612px;
   height: 519px;
  }
 
@@ -158,7 +161,7 @@
   font-style: normal;
   font-weight: var(--body-text-desc-fw);
   line-height: var(--body-text-desc-lh);
-  width: 846px;
+  width: 500px;
  }
 
 }
@@ -166,5 +169,17 @@
 @media screen and (min-width: 1280px) {
  .about h2 {
   font-size: var(--h2-desc-fs);
+ }
+
+ .info {
+  flex-direction: row;
+  margin-top: 30px;
+  gap: 200px;
+
+ }
+
+
+ .text {
+  width: 500px;
  }
 }

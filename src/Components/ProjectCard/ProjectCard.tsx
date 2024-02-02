@@ -27,8 +27,8 @@ const ProjectCard: FC<ProjectCardProps> = ({webm, mp4, poster, title, index, des
             <span>0{index}</span>
             <h3>{title}</h3>
           </div>
-          <div className={styles.stack}>
-            <span>Time Estimation:</span> <p>{desc}</p>
+          <div className={styles.description}>
+           <p>{desc}</p>
           </div>
           <div className={styles.stack}>
             <span>Stack:</span>
