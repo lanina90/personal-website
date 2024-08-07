@@ -79,35 +79,17 @@
   },
   {
     "id": "1",
-    "title": "Walking School",
-    "desc": "The website was created for the initiatives of Oleksandr Shvetsov, who conducts various events for the rehabilitation of veterans. The site allows you to receive information about the dates and conditions of events, as well as provides the opportunity to register for them. An administrator panel has also been implemented for managing content on the site. ",
+    "title": "Game Haven",
+    "desc": "Gave Heaven is a dynamic e-commerce platform designed to cater to gaming enthusiasts across the globe. This PET project was developed collaboratively by a small, passionate team dedicated to honing our skills and expanding our expertise in web development. This project was an exciting venture undertaken by a small, dedicated team aiming to enhance our skills in web development. ",
     "stack": [
-      "React",
-      "CSS",
-      "React Query",
-      "REST API",
-      "Jest"
+      "NextJs",
+      "Tailwind",
+      "TypeScript"
     ],
-    "website": "https://www.walking-school.site/",
-    "git": "https://github.com/lanina90/walking-school-baza",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/walking.webp?alt=media&token=6ddebacd-85e7-424f-9269-6d3536e4632e",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/walking.webm?alt=media&token=4c0ac135-4eda-4365-a261-2a248c580bde",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/walking.mp4?alt=media&token=904e7963-6b04-4cb7-9a3f-3f5d7d9f6060"
-  },
-  {
-    "id": "2",
-    "title": "HYST",
-    "desc": "The platform aggregates information about state and public initiatives for veterans of the war with Russia is concentrated. Main features: search initiatives by city, category and keyword; admin panel for adding, editing and removing website's content.",
-    "stack": [
-      "React",
-      "TailwindCSS",
-      "TypeScript",
-      "REST API"
-    ],
-    "website": "https://hyst.site/",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst_Screen.webp?alt=media&token=0a4ebc7f-fe42-4b54-81ba-b46bf58a1181",
-    "git": "https://github.com/lanina90/veterano-front",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst.webm?alt=media&token=c3283710-f3fa-4bda-b3de-cb086ddf9185",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/hyst_mp4.mp4?alt=media&token=d485b334-baa3-44f5-bf6c-5b2d10ac2285"
+    "website": "https://game-haven-ten.vercel.app/",
+    "git": "https://github.com/lanina90/game-haven",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470"
   }
 ]
