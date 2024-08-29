@@ -31,6 +31,22 @@
   "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Pp6lSk0YC6.webm?alt=media&token=fba4bb6a-9713-48ad-91fc-62b4df83aef5"
 },
   {
+    "id": "9",
+    "title": "Travella",
+    "desc": "A dynamic and visually appealing Next.js-powered landing page for a travel agency. Leveraging TypeScript for enhanced type safety and maintainability, I crafted a seamless user experience using SCSS for styling and GSAP for captivating animations.",
+    "stack": [
+      "NextJs",
+      "SCSS",
+      "GSAP",
+      "TypeScript"
+    ],
+    "website": "https://travella-iota.vercel.app/",
+    "git": "https://github.com/lanina90/travella",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_PDztF958xm.jpg?alt=media&token=39d58a1a-cfad-4304-a667-ed8b66537d09",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_bbkd0whq0R.webm?alt=media&token=8afe2de0-b959-4dfe-99c9-440f5d68a31b",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_bbkd0whq0R.mp4?alt=media&token=53bd6529-fefd-43e3-97e7-ec1873792e7f"
+  },
+  {
     "id": "6",
     "title": "Cat For Future",
     "desc": "The primary objective of the website is to facilitate the adoption of cats by finding them new homes. It incorporates functionalities such as the reservation and cancellation of cat adoptions, user registration, and authentication. Furthermore, my role in the project was to develop an administrative panel for content management, implement authentication and registration processes, and integrate the website with third-party APIs.",
