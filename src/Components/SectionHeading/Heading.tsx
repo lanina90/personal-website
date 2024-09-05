@@ -24,5 +24,4 @@ const Heading = forwardRef<HTMLDivElement, HeadingProps>(({icon, title, text, is
 })
 Heading.displayName = 'Heading';
 
-
 export default Heading;

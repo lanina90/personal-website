@@ -26,6 +26,7 @@ const Experience = () => {
         <Fragment key={item.id}>
           <AccordionItem
             position={item.position}
+            technologies={item.technologies}
             company={item.company}
             period={item.period}
             duties={item.duties}

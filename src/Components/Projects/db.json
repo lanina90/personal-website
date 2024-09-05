@@ -2,7 +2,7 @@
   {
     "id": "8",
     "title": "Chytozavryk",
-    "desc": "The main purpose of this project is to inspire a love for reading among young readers. Children read books, complete associated quizzes, and are rewarded with a \"Chytozavryk\" for their efforts. The platform includes a dashboard for parents, enabling them to register their children, and a separate dashboard for children, which showcases vital information such as the books read, rewards earned, and quizzes completed. Additionally, there is an admin panel for site management.\n\nI joined the project at its midway point. My responsibilities included finalizing the development of the child's dashboard, ensuring seamless integration of its features, and creating the admin panel from scratch. In my capacity as team lead, my duties extended to decomposing the layout into small components, task prioritization, performing code reviews, and overseeing project timelines to ensure timely completion.",
+    "desc": "<p>It's an application designed to encourage children to read through engaging quizzes.</p> <p>The project features:</p> <ul><li>✔\uFE0F A functional parent dashboard: allows parents to monitor their children's progress and achievements.</li><li>✔\uFE0F A bright and intuitive children's dashboard: lets kids independently choose quizzes, track their achievements, and view rewards, boosting their motivation and interest in reading.</li><li>✔\uFE0F \"Chytozavryks\": cute characters that serve as rewards for successfully completing quizzes.</li><li>✔\uFE0F An admin panel: provides a user-friendly interface for managing content and tracking the app's performance.</li></ul> ",
     "stack": [
       "NextJs",
       "SCSS",
@@ -19,7 +19,7 @@
   {
   "id": "7",
   "title": "StatusAC",
-  "desc": "The website was developed for a law firm. I joined the project during its final stages. My primary responsibilities included optimizing the website for mobile devices and implementing modifications requested by the client. The most significant challenge I faced was working with styled components, a technology with which I had no prior experience. This required a rapid learning curve and adaptability to integrate effectively with the existing codebase.",
+  "desc": "<p>It's a user-friendly web application for a law firm</p> <p>Key features implemented:</p> <ul><li>✔\uFE0F Interactive sliders provide a dynamic way to showcase content, such as images or testimonials, allowing users to navigate through different items with smooth transitions.</li><li>✔\uFE0F Appointment Booking System: Implemented a booking feature that allows users to easily schedule appointments with legal professionals directly through the website, ensuring smooth and convenient scheduling.</li><li>✔\uFE0F Admin Panel: An easy-to-use admin panel that allows the firm to manage content, track website performance, and ensure the site remains up-to-date with the latest legal information.</li></ul>",
   "stack": [
     "React",
     "Styled Components"
@@ -31,9 +31,28 @@
   "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Pp6lSk0YC6.webm?alt=media&token=fba4bb6a-9713-48ad-91fc-62b4df83aef5"
 },
   {
+    "id": "10",
+    "title": "IPhone 15 Website",
+    "desc": "<p>This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP and Three.js for displaying iPhone 15 Pro models in various colors and shapes.</p> <p>Features:</p> <ul><li>✔\uFE0F Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.</li><li>✔\uFE0F 3D Model Rendering with Different Colors and Sizes: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.</li><li>✔\uFE0F Custom Video Carousel: Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.</li><li>✔\uFE0F Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.</li></ul>",
+    "stack": [
+      "React",
+      "Three.js",
+      "React Three Fiber",
+      "React Three Drei",
+      "GSAP",
+      "Tailwind CSS",
+      "Vite"
+    ],
+    "website": "https://iphone-15-website-nine.vercel.app/",
+    "git": "https://github.com/lanina90/iPhone-15-website",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/iPhone15.png?alt=media&token=6f2a2f0a-da5a-4a5d-bcf3-c09d89efd522",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/IPhone_15_webm.webm?alt=media&token=a24779cb-d10f-4ee2-8586-94c1b81b12de",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/IPhone_15_mp4.mp4?alt=media&token=d56e531f-b577-4652-9dbd-b8ba7c95d48c"
+  },
+  {
     "id": "9",
     "title": "Travella",
-    "desc": "A dynamic and visually appealing Next.js-powered landing page for a travel agency. Leveraging TypeScript for enhanced type safety and maintainability, I crafted a seamless user experience using SCSS for styling and GSAP for captivating animations.",
+    "desc": "<p>A dynamic and visually appealing Next.js-powered landing page for a travel agency. Leveraging TypeScript for enhanced type safety and maintainability, I crafted a seamless user experience using SCSS for styling and GSAP for captivating animations.</p>",
     "stack": [
       "NextJs",
       "SCSS",
@@ -47,26 +66,9 @@
     "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_bbkd0whq0R.mp4?alt=media&token=53bd6529-fefd-43e3-97e7-ec1873792e7f"
   },
   {
-    "id": "6",
-    "title": "Cat For Future",
-    "desc": "The primary objective of the website is to facilitate the adoption of cats by finding them new homes. It incorporates functionalities such as the reservation and cancellation of cat adoptions, user registration, and authentication. Furthermore, my role in the project was to develop an administrative panel for content management, implement authentication and registration processes, and integrate the website with third-party APIs.",
-    "stack": [
-      "React",
-      "SCSS",
-      "TypeScript",
-      "RTK Query",
-      "Formik"
-    ],
-    "website": "https://cat-for-future.netlify.app/",
-    "git": "https://github.com/lanina90/cat_for_future",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_XlyqlNCOuZ.jpg?alt=media&token=8f52966d-d687-4047-aabb-64f295fce42b",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.webm?alt=media&token=e4fcfd82-fee4-47e2-b26c-2216de6ecd8c",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.mp4?alt=media&token=f1cf0d3b-938e-4ab0-807f-8b8b4931adfe"
-  },
-  {
     "id": "5",
     "title": "AI Email",
-    "desc": "This project represents a personal endeavor, with the primary objective being the enhancement of my proficiency in Next.js, alongside a focused improvement of my SCSS and animation skills.",
+    "desc": "<p>This project represents a personal endeavor, with the primary objective being the enhancement of my proficiency in Next.js, alongside a focused improvement of my SCSS and animation skills.</p>",
     "stack": [
       "NextJS",
       "SCSS",
@@ -81,7 +83,7 @@
   {
     "id": "4",
     "title": "Digital Product Studio",
-    "desc": "This project represents a personal endeavor, with the principal objective being the advancement of my proficiency in Next.js alongside the refinement of my CSS/HTML skills.",
+    "desc": "<p>This project represents a personal endeavor, with the principal objective being the advancement of my proficiency in Next.js alongside the refinement of my CSS/HTML skills.</p>",
     "stack": [
       "NextJS",
       "SCSS",
@@ -96,7 +98,7 @@
   {
     "id": "1",
     "title": "Game Haven",
-    "desc": "Gave Heaven is a dynamic e-commerce platform designed to cater to gaming enthusiasts across the globe. This PET project was developed collaboratively by a small, passionate team dedicated to honing our skills and expanding our expertise in web development. This project was an exciting venture undertaken by a small, dedicated team aiming to enhance our skills in web development. ",
+    "desc": "<p>Gave Heaven is a dynamic e-commerce platform designed to cater to gaming enthusiasts across the globe. This PET project was developed collaboratively by a small, passionate team dedicated to honing our skills and expanding our expertise in web development. This project was an exciting venture undertaken by a small, dedicated team aiming to enhance our skills in web development.</p>",
     "stack": [
       "NextJs",
       "Tailwind",
@@ -107,5 +109,22 @@
     "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470",
     "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470",
     "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470"
+  },
+  {
+    "id": "6",
+    "title": "Cat For Future",
+    "desc": "<p>The primary objective of the website is to facilitate the adoption of cats by finding them new homes. It incorporates functionalities such as the reservation and cancellation of cat adoptions, user registration, and authentication. Furthermore, my role in the project was to develop an administrative panel for content management, implement authentication and registration processes, and integrate the website with third-party APIs.</p>",
+    "stack": [
+      "React",
+      "SCSS",
+      "TypeScript",
+      "RTK Query",
+      "Formik"
+    ],
+    "website": "https://cat-for-future.netlify.app/",
+    "git": "https://github.com/lanina90/cat_for_future",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_XlyqlNCOuZ.jpg?alt=media&token=8f52966d-d687-4047-aabb-64f295fce42b",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.webm?alt=media&token=e4fcfd82-fee4-47e2-b26c-2216de6ecd8c",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.mp4?alt=media&token=f1cf0d3b-938e-4ab0-807f-8b8b4931adfe"
   }
 ]

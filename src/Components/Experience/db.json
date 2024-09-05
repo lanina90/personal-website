@@ -1,9 +1,24 @@
 [
   {
+    "id": "4",
+    "position": "front-end developer",
+    "company": "Miteyda",
+    "technologies": "React.js, TypeScript, Next.js, MUI, SCSS, Styled Components ",
+    "period": "Feb, 2024 - now",
+    "info": "",
+    "duties": [
+      "Translating complex design requirements into interactive user experiences",
+      "Developing new system functionality and introduction of changes to existing functionality",
+      "Refactoring and bug fixing of existing functionality",
+      "Writing reusable and maintainable components",
+      "Using Git to manage codebase"
+    ]
+  },{
     "id": "1",
     "position": "front-end developer",
     "company": "BazaTrainee Ukraine",
-    "period": "2023 - now",
+     "technologies": "React.js, TypeScript, Next.js, Tailwind CSS, SCSS, Styled Components,  Jest ",
+    "period": "2023 - Feb, 2024",
     "info": "",
     "duties": [
       "Developing and maintaining user-facing features for web applications using HTML, CSS, and JavaScript.",

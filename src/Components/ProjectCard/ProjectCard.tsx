@@ -28,7 +28,7 @@ const ProjectCard: FC<ProjectCardProps> = ({webm, mp4, poster, title, index, des
             <h3>{title}</h3>
           </div>
           <div className={styles.description}>
-           <p>{desc}</p>
+           <p dangerouslySetInnerHTML={{ __html: desc }}/>
           </div>
           <div className={styles.stack}>
             <span>Stack:</span>
