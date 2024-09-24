@@ -50,6 +50,22 @@
     "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/IPhone_15_mp4.mp4?alt=media&token=d56e531f-b577-4652-9dbd-b8ba7c95d48c"
   },
   {
+    "id": "11",
+    "title": "Business Coach Website",
+    "desc": "<p>This is a business coach website using React.js and TypeScript. It highlights the effective use of GSAP (Greensock Animations) for animations.</p> <p>Features:</p> <ul><li>✔\uFE0F Beautiful Subtle Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.</li><li>✔\uFE0F Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.</li><li>✔\uFE0F Testimonials Carousel (crafted with GSAP): Enhance user engagement with an interactive testimonials carousel built using GSAP, providing a personalized and immersive browsing experience.</li></ul>",
+    "stack": [
+      "React",
+      "TypeScript",
+      "GSAP",
+      "Vite"
+    ],
+    "website": "https://business-coach-psi.vercel.app/",
+    "git": "https://github.com/lanina90/business-coach",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/coach.webp?alt=media&token=5eac02d8-60f3-4c1e-9750-bcc1bb73a793",
+    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/coach.webm?alt=media&token=ab19b836-2cb7-4a82-9cd5-d11850ebbd4c",
+    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/coach.mp4?alt=media&token=606d198f-cfd4-49f3-919b-d2178f8194cc"
+  },
+  {
     "id": "9",
     "title": "Travella",
     "desc": "<p>A dynamic and visually appealing Next.js-powered landing page for a travel agency. Leveraging TypeScript for enhanced type safety and maintainability, I crafted a seamless user experience using SCSS for styling and GSAP for captivating animations.</p>",

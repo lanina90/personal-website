@@ -148,7 +148,8 @@
   width: 100%;
   padding: 36px 20px;
   justify-content: space-between;
-  height: 430px;
+  min-height: 430px;
+  max-height: 500px;
  }
 
  .card:nth-child(odd) {
