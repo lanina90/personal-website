@@ -37,7 +37,6 @@ const HeroDesc = () => {
        <div ref={cubeRef} className={styles.cube}><Cube isIntersecting={isIntersecting}/></div>
      </Container>
      <Container component={'div'} className={`${styles.about} ${isIntersecting ? styles.opacity : ''}`}>
-       <p className={styles.hi}>Hi,</p>
        <p className={styles.text}>
          "I'm Kateryna Lanina, a Front-End Developer with a passion for crafting engaging user
          experiences. Welcome to my portfolio!"

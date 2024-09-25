@@ -7,6 +7,7 @@ interface VideoComponentProps{
 }
 const VideoComponent: FC<VideoComponentProps> = ({ mp4, webm,poster } ) => {
   const videoRef = useRef<HTMLVideoElement>(null);
+
   useEffect(() => {
     const currentVideo = videoRef.current;
     const observer = new IntersectionObserver(
