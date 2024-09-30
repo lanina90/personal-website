@@ -31,6 +31,23 @@
   "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Pp6lSk0YC6.webm?alt=media&token=fba4bb6a-9713-48ad-91fc-62b4df83aef5"
 },
   {
+    "id": "12",
+    "title": "Movie Database Website",
+    "desc": "<p>This project is a dynamic web application designed to provide users with an engaging interface for exploring movies, similar to TMDB (The Movie Database).</p><p>Utilizing the TMDB API, the application allows users to search for films, view detailed information, and browse various categories.</p> <p>The project features:</p> <ul><li>✔\uFE0F User-Friendly Interface: A clean and intuitive layout that enhances the user experience, making it easy to navigate through various movie categories and search results.</li><li>✔\uFE0F Dynamic Content: Leveraging the TMDB API, users can view real-time data, including movie ratings, release dates, and overviews.</li><li>✔\uFE0F Search Functionality: Users can quickly find their favorite movies or TV shows using a robust search feature, with suggestions displayed as they type.</li><li>✔\uFE0F Detailed View: Each movie or show features a detailed page with additional information, including cast, crew, trailers, and user ratings.</li><li>✔\uFE0F Commenting System: Users have the ability to leave comments on films, fostering community discussions and reviews.</li><li>✔\uFE0F Rating System: Users can rate films, providing valuable insights and recommendations to others.</li></ul> ",
+    "stack": [
+      "React",
+      "Redux Toolkit",
+      "MUI Library",
+      "FireBase",
+      "TMDB API"
+    ],
+    "website": "https://movie-magic-one.vercel.app/",
+    "git": "https://github.com/lanina90/CourseReactProject",
+    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/movies.jpg?alt=media&token=ca7f6631-3c09-4509-91c9-627786534bf9",
+    "webm": "",
+    "mp4": ""
+  },
+  {
     "id": "10",
     "title": "IPhone 15 Website",
     "desc": "<p>This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP and Three.js for displaying iPhone 15 Pro models in various colors and shapes.</p> <p>Features:</p> <ul><li>✔\uFE0F Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.</li><li>✔\uFE0F 3D Model Rendering with Different Colors and Sizes: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.</li><li>✔\uFE0F Custom Video Carousel: Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.</li><li>✔\uFE0F Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.</li></ul>",
