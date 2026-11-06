@@ -1,4 +1,4 @@
-import React, {forwardRef, ReactElement, SVGProps} from 'react';
+import {type ReactElement, type Ref, type SVGProps} from 'react';
 import styles from './Heading.module.css';
 
 interface HeadingProps{
@@ -6,9 +6,10 @@ interface HeadingProps{
   title: string;
   text: string;
   isIntersected?: boolean;
+  ref?: Ref<HTMLDivElement>;
 }
 
-const Heading = forwardRef<HTMLDivElement, HeadingProps>(({icon, title, text, isIntersected}, ref) => {
+const Heading = ({icon, title, text, isIntersected, ref}: HeadingProps) => {
 
   return (
     <div className={styles.info} ref={ref}>
@@ -21,7 +22,6 @@ const Heading = forwardRef<HTMLDivElement, HeadingProps>(({icon, title, text, is
       </div>
     </div>
   );
-})
-Heading.displayName = 'Heading';
+}
 
 export default Heading;

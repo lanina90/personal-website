@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import {Fragment} from 'react';
 import {ReactComponent as Project} from '../../assets/img/projects/projects.svg';
 import useIntersectionObserver from '../../hooks/useIntersectionObserver';
 import Container from '../Container/Container';
@@ -31,8 +31,6 @@ const Projects = () => {
               stack={item.stack}
               website={item.website}
               git={item.git}
-              webm={item.webm}
-              mp4={item.mp4}
               poster={item.poster}
             />
           </Fragment>

@@ -1,10 +1,27 @@
 [
   {
+    "id": "5",
+    "position": "Front-end developer",
+    "company": "RecordsMarine",
+    "technologies": "Next.js, React, TypeScript, Chakra UI, TanStack Query, Zustand, React Hook Form, Zod, CometChat, Vitest, Storybook, i18n ",
+    "period": "Dec, 2024 - now",
+    "info": "",
+    "duties": [
+      "Built core features for the marketplace",
+      "Turning Figma designs into responsive, interactive interfaces",
+      "Implementing SEO improvements",
+      "Writing unit tests with Vitest",
+      "Optimizing performance and fixing bugs in existing features",
+      "Refactoring existing code and writing reusable, maintainable components",
+      "Working with REST API and the back-end team, taking part in code reviews"
+    ]
+  },
+  {
     "id": "4",
     "position": "front-end developer",
     "company": "Miteyda",
     "technologies": "React.js, TypeScript, Next.js, MUI, SCSS, Styled Components ",
-    "period": "Feb, 2024 - now",
+    "period": "Feb, 2024 - Nov, 2024",
     "info": "",
     "duties": [
       "Translating complex design requirements into interactive user experiences",
@@ -18,7 +35,7 @@
     "position": "front-end developer",
     "company": "BazaTrainee Ukraine",
      "technologies": "React.js, TypeScript, Next.js, Tailwind CSS, SCSS, Styled Components,  Jest ",
-    "period": "2023 - Feb, 2024",
+    "period": "April, 2023 - Feb, 2024",
     "info": "",
     "duties": [
       "Developing and maintaining user-facing features for web applications using HTML, CSS, and JavaScript.",

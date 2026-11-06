@@ -1,4 +1,4 @@
-import React, {FC, lazy} from 'react'
+import {lazy} from 'react'
 import './App.css'
 import Header from './Components/Header/Header';
 import ActionBar from './Components/UI/ActionBar/ActionBar';
@@ -11,7 +11,7 @@ const Experience = lazy(() => import('./Components/Experience/Experience'));
 const Contacts = lazy(() => import('./Components/Contacts/Contacts'));
 
 
-const App: FC = () => {
+const App = () => {
   return (
     <>
       <div className="wrapper">

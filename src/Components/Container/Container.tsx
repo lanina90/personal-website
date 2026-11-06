@@ -1,19 +1,19 @@
-import React, {FC, ReactNode} from 'react'
+import {type ReactNode} from 'react'
 
 interface ContainerProps {
   children: ReactNode
   className?: string
-  component: keyof JSX.IntrinsicElements
+  component: keyof React.JSX.IntrinsicElements
   id?: string;
 }
 
-const Container: FC<ContainerProps> = ({
+const Container = ({
   component,
   children,
   className = '',
   id,
   ...props
-}) => {
+}: ContainerProps) => {
   const Component = component
   return <Component className={`container ${className}`} id={id} {...props}>{children}</Component>
 }

@@ -58,14 +58,14 @@
 }
 
 .wrapper {
+ margin-left: 48px;
  display: flex;
- gap: 24px;
- padding-bottom: 10px;
+ gap: 8px;
 }
 
 .iconList {
- width: 32px;
- height: 32px;
+ width: 30px;
+ height: 30px;
 }
 
 .listText {
@@ -120,10 +120,10 @@
 
  .listText {
   color: var(--grey, #DEE1E6);
-  font-family: var(--body-text-desc-ff);
-  font-size: var(--body-text-desc-fs);
-  font-weight: var(--body-text-desc-fw);
-  line-height: var(--body-text-desc-lh);
+  font-family: var(--body-text-small-ff);
+  font-size: var(--body-text-small-fs);
+  font-weight: 1;
+  line-height: var(--body-text-small-lh);
  }
 
 }

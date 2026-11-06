@@ -1,11 +1,9 @@
-import React, {FC, lazy, Suspense, useState} from 'react';
+import {lazy, Suspense, useState} from 'react';
 import {ReactComponent as SearchIcon} from '../../assets/img/search.svg';
 import Links from '../UI/Link/Links';
 import styles from './ProjectCard.module.css'
 
 interface ProjectCardProps{
-  webm: string,
-  mp4: string,
   poster: string,
   title: string,
   index: number,
@@ -17,7 +15,7 @@ interface ProjectCardProps{
 
 const Modal = lazy(() => import('../Modal/Modal'));
 
-const ProjectCard: FC<ProjectCardProps> = ({webm, mp4, poster, title, index, desc, stack, website, git}) => {
+const ProjectCard = ({poster, title, index, desc, stack, website, git}: ProjectCardProps) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -28,7 +26,7 @@ const ProjectCard: FC<ProjectCardProps> = ({webm, mp4, poster, title, index, des
            <SearchIcon width={50} height={50}/>
           </div>
           <div className={styles['poster']}>
-            <img src={poster} alt={title}/>
+            <img src={poster} alt={title} loading="lazy"/>
           </div>
         </div>
         <div className={styles.wrapper}>

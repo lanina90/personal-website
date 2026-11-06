@@ -2,7 +2,7 @@
   {
     "id": "8",
     "title": "Chytozavryk",
-    "desc": "<p>It's an application designed to encourage children to read through engaging quizzes.</p> <p>The project features:</p> <ul><li>✔\uFE0F A functional parent dashboard: allows parents to monitor their children's progress and achievements.</li><li>✔\uFE0F A bright and intuitive children's dashboard: lets kids independently choose quizzes, track their achievements, and view rewards, boosting their motivation and interest in reading.</li><li>✔\uFE0F \"Chytozavryks\": cute characters that serve as rewards for successfully completing quizzes.</li><li>✔\uFE0F An admin panel: provides a user-friendly interface for managing content and tracking the app's performance.</li></ul> ",
+    "desc": "<p>It's an application designed to encourage children to read through engaging quizzes.</p> <p>The project features:</p> <ul><li>✔️ A functional parent dashboard: allows parents to monitor their children's progress and achievements.</li><li>✔️ A bright and intuitive children's dashboard: lets kids independently choose quizzes, track their achievements, and view rewards, boosting their motivation and interest in reading.</li><li>✔️ \"Chytozavryks\": cute characters that serve as rewards for successfully completing quizzes.</li><li>✔️ An admin panel: provides a user-friendly interface for managing content and tracking the app's performance.</li></ul> ",
     "stack": [
       "NextJs",
       "SCSS",
@@ -10,30 +10,26 @@
       "TypeScript",
       "Formik"
     ],
-    "website": "https://chytozavryk.top/",
+    "website": "https://chytozavrik-frontend.vercel.app/",
     "git": "https://github.com/lanina90/chytozavrik-frontend",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_xnxJFAbZml.png?alt=media&token=2f1a5ab7-1e61-4036-8a24-4c3999a2c081",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_lNXCA9OaNC.webm?alt=media&token=6bb2cda7-5919-4377-ac7b-ff914253ebbd",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_lNXCA9OaNC.mp4?alt=media&token=c0c18759-c93c-44d1-b83a-2885cabe880c"
+    "poster": "/projects/chytozavryk.png"
   },
   {
-  "id": "7",
-  "title": "StatusAC",
-  "desc": "<p>It's a user-friendly web application for a law firm</p> <p>Key features implemented:</p> <ul><li>✔\uFE0F Interactive sliders provide a dynamic way to showcase content, such as images or testimonials, allowing users to navigate through different items with smooth transitions.</li><li>✔\uFE0F Appointment Booking System: Implemented a booking feature that allows users to easily schedule appointments with legal professionals directly through the website, ensuring smooth and convenient scheduling.</li><li>✔\uFE0F Admin Panel: An easy-to-use admin panel that allows the firm to manage content, track website performance, and ensure the site remains up-to-date with the latest legal information.</li></ul>",
-  "stack": [
-    "React",
-    "Styled Components"
-  ],
-  "website": "https://statusac.com.ua/",
-  "git": "https://github.com/lanina90/advokato",
-  "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_T6Zm2yzeWj.jpg?alt=media&token=962669e1-0c1f-48ef-ac9c-bd11178cb5b5",
-  "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Pp6lSk0YC6.webm?alt=media&token=42bb06f7-ed72-4cb1-ad70-3d047915c617",
-  "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Pp6lSk0YC6.webm?alt=media&token=fba4bb6a-9713-48ad-91fc-62b4df83aef5"
-},
+    "id": "7",
+    "title": "StatusAC",
+    "desc": "<p>It's a user-friendly web application for a law firm</p> <p>Key features implemented:</p> <ul><li>✔️ Interactive sliders provide a dynamic way to showcase content, such as images or testimonials, allowing users to navigate through different items with smooth transitions.</li><li>✔️ Appointment Booking System: Implemented a booking feature that allows users to easily schedule appointments with legal professionals directly through the website, ensuring smooth and convenient scheduling.</li><li>✔️ Admin Panel: An easy-to-use admin panel that allows the firm to manage content, track website performance, and ensure the site remains up-to-date with the latest legal information.</li></ul>",
+    "stack": [
+      "React",
+      "Styled Components"
+    ],
+    "website": "https://statusac.com.ua/",
+    "git": "https://github.com/lanina90/advokato",
+    "poster": "/projects/statusac.jpg"
+  },
   {
     "id": "12",
     "title": "Movie Database Website",
-    "desc": "<p>This project is a dynamic web application designed to provide users with an engaging interface for exploring movies, similar to TMDB (The Movie Database).</p><p>Utilizing the TMDB API, the application allows users to search for films, view detailed information, and browse various categories.</p> <p>The project features:</p> <ul><li>✔\uFE0F User-Friendly Interface: A clean and intuitive layout that enhances the user experience, making it easy to navigate through various movie categories and search results.</li><li>✔\uFE0F Dynamic Content: Leveraging the TMDB API, users can view real-time data, including movie ratings, release dates, and overviews.</li><li>✔\uFE0F Search Functionality: Users can quickly find their favorite movies or TV shows using a robust search feature, with suggestions displayed as they type.</li><li>✔\uFE0F Detailed View: Each movie or show features a detailed page with additional information, including cast, crew, trailers, and user ratings.</li><li>✔\uFE0F Commenting System: Users have the ability to leave comments on films, fostering community discussions and reviews.</li><li>✔\uFE0F Rating System: Users can rate films, providing valuable insights and recommendations to others.</li></ul> ",
+    "desc": "<p>This project is a dynamic web application designed to provide users with an engaging interface for exploring movies, similar to TMDB (The Movie Database).</p><p>Utilizing the TMDB API, the application allows users to search for films, view detailed information, and browse various categories.</p> <p>The project features:</p> <ul><li>✔️ User-Friendly Interface: A clean and intuitive layout that enhances the user experience, making it easy to navigate through various movie categories and search results.</li><li>✔️ Dynamic Content: Leveraging the TMDB API, users can view real-time data, including movie ratings, release dates, and overviews.</li><li>✔️ Search Functionality: Users can quickly find their favorite movies or TV shows using a robust search feature, with suggestions displayed as they type.</li><li>✔️ Detailed View: Each movie or show features a detailed page with additional information, including cast, crew, trailers, and user ratings.</li><li>✔️ Commenting System: Users have the ability to leave comments on films, fostering community discussions and reviews.</li><li>✔️ Rating System: Users can rate films, providing valuable insights and recommendations to others.</li></ul> ",
     "stack": [
       "React",
       "Redux Toolkit",
@@ -43,14 +39,12 @@
     ],
     "website": "https://movie-magic-one.vercel.app/",
     "git": "https://github.com/lanina90/CourseReactProject",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/movies.jpg?alt=media&token=ca7f6631-3c09-4509-91c9-627786534bf9",
-    "webm": "",
-    "mp4": ""
+    "poster": "/projects/movies.jpg"
   },
   {
     "id": "10",
     "title": "IPhone 15 Website",
-    "desc": "<p>This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP and Three.js for displaying iPhone 15 Pro models in various colors and shapes.</p> <p>Features:</p> <ul><li>✔\uFE0F Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.</li><li>✔\uFE0F 3D Model Rendering with Different Colors and Sizes: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.</li><li>✔\uFE0F Custom Video Carousel: Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.</li><li>✔\uFE0F Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.</li></ul>",
+    "desc": "<p>This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP and Three.js for displaying iPhone 15 Pro models in various colors and shapes.</p> <p>Features:</p> <ul><li>✔️ Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.</li><li>✔️ 3D Model Rendering with Different Colors and Sizes: Explore the iPhone 15 Pro from every angle with dynamic 3D rendering, offering various color and size options.</li><li>✔️ Custom Video Carousel: Engage users with a unique and interactive video carousel developed using GSAP for a personalized browsing experience.</li><li>✔️ Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.</li></ul>",
     "stack": [
       "React",
       "Three.js",
@@ -62,14 +56,12 @@
     ],
     "website": "https://iphone-15-website-nine.vercel.app/",
     "git": "https://github.com/lanina90/iPhone-15-website",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/iPhone15.png?alt=media&token=6f2a2f0a-da5a-4a5d-bcf3-c09d89efd522",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/IPhone_15_webm.webm?alt=media&token=a24779cb-d10f-4ee2-8586-94c1b81b12de",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/IPhone_15_mp4.mp4?alt=media&token=d56e531f-b577-4652-9dbd-b8ba7c95d48c"
+    "poster": "/projects/iphone15.png"
   },
   {
     "id": "11",
     "title": "Business Coach Website",
-    "desc": "<p>This is a business coach website using React.js and TypeScript. It highlights the effective use of GSAP (Greensock Animations) for animations.</p> <p>Features:</p> <ul><li>✔\uFE0F Beautiful Subtle Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.</li><li>✔\uFE0F Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.</li><li>✔\uFE0F Testimonials Carousel (crafted with GSAP): Enhance user engagement with an interactive testimonials carousel built using GSAP, providing a personalized and immersive browsing experience.</li></ul>",
+    "desc": "<p>This is a business coach website using React.js and TypeScript. It highlights the effective use of GSAP (Greensock Animations) for animations.</p> <p>Features:</p> <ul><li>✔️ Beautiful Subtle Smooth Animations using GSAP: Enhanced user experience with seamless and captivating animations powered by GSAP.</li><li>✔️ Completely Responsive: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.</li><li>✔️ Testimonials Carousel (crafted with GSAP): Enhance user engagement with an interactive testimonials carousel built using GSAP, providing a personalized and immersive browsing experience.</li></ul>",
     "stack": [
       "React",
       "TypeScript",
@@ -78,9 +70,7 @@
     ],
     "website": "https://business-coach-psi.vercel.app/",
     "git": "https://github.com/lanina90/business-coach",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/coach.webp?alt=media&token=5eac02d8-60f3-4c1e-9750-bcc1bb73a793",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/coach.webm?alt=media&token=ab19b836-2cb7-4a82-9cd5-d11850ebbd4c",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/coach.mp4?alt=media&token=606d198f-cfd4-49f3-919b-d2178f8194cc"
+    "poster": "/projects/coach.webp"
   },
   {
     "id": "9",
@@ -94,9 +84,7 @@
     ],
     "website": "https://travella-iota.vercel.app/",
     "git": "https://github.com/lanina90/travella",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_PDztF958xm.jpg?alt=media&token=39d58a1a-cfad-4304-a667-ed8b66537d09",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_bbkd0whq0R.webm?alt=media&token=8afe2de0-b959-4dfe-99c9-440f5d68a31b",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_bbkd0whq0R.mp4?alt=media&token=53bd6529-fefd-43e3-97e7-ec1873792e7f"
+    "poster": "/projects/travella.jpg"
   },
   {
     "id": "5",
@@ -109,9 +97,7 @@
     ],
     "website": "https://ai-email-theta.vercel.app/",
     "git": "https://github.com/lanina90/ai-email",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/aiemail.png?alt=media&token=69b4f80b-8a9f-4351-978b-3eb275211373",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/aiemail.webm?alt=media&token=4fce1ff1-6af2-425b-9bc4-7795f56f2c73",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/aiemail.mp4?alt=media&token=6da7730d-0a91-4079-889e-c75b952d8f9a"
+    "poster": "/projects/aiemail.png"
   },
   {
     "id": "4",
@@ -124,9 +110,7 @@
     ],
     "website": "https://digital-production-agency.vercel.app/",
     "git": "https://github.com/lanina90/digital-production-agency",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_Yo4SRy5SYV.png?alt=media&token=82751e07-fa3f-44d2-adff-acaf49fd1af5",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/ezgif.com-gif-to-webm-converter.webm?alt=media&token=db834b04-d396-4183-8efa-509d4baa0b69",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/ezgif.com-video-to-mp4-converter.mp4?alt=media&token=d2a2f715-a5db-49e4-bb45-6e329161a863"
+    "poster": "/projects/digital-studio.png"
   },
   {
     "id": "1",
@@ -139,25 +123,6 @@
     ],
     "website": "https://game-haven-ten.vercel.app/",
     "git": "https://github.com/lanina90/game-haven",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_c98DW3m4jg.png?alt=media&token=c5f4e1d6-dcac-4aeb-a3e1-1e6c3cc9a470"
-  },
-  {
-    "id": "6",
-    "title": "Cat For Future",
-    "desc": "<p>The primary objective of the website is to facilitate the adoption of cats by finding them new homes. It incorporates functionalities such as the reservation and cancellation of cat adoptions, user registration, and authentication. Furthermore, my role in the project was to develop an administrative panel for content management, implement authentication and registration processes, and integrate the website with third-party APIs.</p>",
-    "stack": [
-      "React",
-      "SCSS",
-      "TypeScript",
-      "RTK Query",
-      "Formik"
-    ],
-    "website": "https://cat-for-future.netlify.app/",
-    "git": "https://github.com/lanina90/cat_for_future",
-    "poster": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_XlyqlNCOuZ.jpg?alt=media&token=8f52966d-d687-4047-aabb-64f295fce42b",
-    "webm": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.webm?alt=media&token=e4fcfd82-fee4-47e2-b26c-2216de6ecd8c",
-    "mp4": "https://firebasestorage.googleapis.com/v0/b/personal-d1c1a.appspot.com/o/chrome_TgEypfB6oe.mp4?alt=media&token=f1cf0d3b-938e-4ab0-807f-8b8b4931adfe"
+    "poster": "/projects/game-haven.png"
   }
 ]

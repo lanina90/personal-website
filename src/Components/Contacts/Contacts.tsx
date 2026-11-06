@@ -1,4 +1,3 @@
-import React from 'react';
 import {ReactComponent as Contact} from '../../assets/img/contact/contact.svg';
 import background from '../../assets/img/ui/lines.svg'
 import useIntersectionObserver from '../../hooks/useIntersectionObserver';

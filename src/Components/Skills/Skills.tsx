@@ -1,4 +1,3 @@
-import React from 'react';
 import {ReactComponent as Skill} from '../../assets/img/skills/skills.svg';
 import useIntersectionObserver from '../../hooks/useIntersectionObserver';
 import Container from '../Container/Container';
